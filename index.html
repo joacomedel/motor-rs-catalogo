@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo de criaturas (motor-rs)</title>
+<style>
+  :root { color-scheme: dark; --bg:#14161b; --card:#1f2229; --line:#2e323c; --txt:#e6e8ee; --muted:#9aa1ad; --acc:#7cc4ff; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--txt); }
+  header { padding:20px 24px; border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 4px; font-size:22px; }
+  header p { margin:0; color:var(--muted); font-size:14px; }
+  main { padding:24px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px; cursor:pointer; text-align:center; }
+  .card:hover { border-color:var(--acc); }
+  .card img { width:100%; image-rendering:pixelated; background:#0d0f13; border-radius:6px; min-height:120px; object-fit:contain; }
+  .card .name { margin-top:8px; font-weight:600; }
+  .card .sub { font-size:13px; color:var(--muted); }
+  /* detalle */
+  #detalle { display:none; }
+  #detalle.open { display:block; }
+  .back { background:none; border:1px solid var(--line); color:var(--txt); padding:6px 12px; border-radius:6px; cursor:pointer; margin-bottom:16px; }
+  .back:hover { border-color:var(--acc); }
+  .titulo { font-size:20px; margin:0 0 16px; }
+  .anims { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px; }
+  .anims button { background:var(--card); border:1px solid var(--line); color:var(--txt); padding:6px 12px; border-radius:20px; cursor:pointer; font-size:14px; }
+  .anims button.activa { border-color:var(--acc); color:var(--acc); }
+  .dirs { display:grid; grid-template-columns:repeat(auto-fill, minmax(140px, 1fr)); gap:12px; }
+  .dir { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:8px; text-align:center; font-size:13px; color:var(--muted); }
+  .dir img { width:100%; image-rendering:pixelated; background:#0d0f13; border-radius:4px; }
+  .error { color:#ff8a8a; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Catálogo de criaturas (motor-rs)</h1>
+  <p id="resumen">Cargando catálogo…</p>
+</header>
+<main>
+  <section id="galeria" class="grid"></section>
+  <section id="detalle">
+    <button class="back" id="volver">← Volver al listado</button>
+    <h2 class="titulo" id="titulo"></h2>
+    <div class="anims" id="anims"></div>
+    <div class="dirs" id="dirs"></div>
+  </section>
+</main>
+
+<script>
+(() => {
+  const DIRS = ['S', 'SE', 'E', 'NE', 'N', 'NW', 'W', 'SW'];
+  const galeria = document.getElementById('galeria');
+  const detalle = document.getElementById('detalle');
+  const resumen = document.getElementById('resumen');
+  let personajes = [];
+
+  // Crea un elemento con clase y texto de forma segura (sin innerHTML con datos del JSON)
+  function el(tag, cls, texto) {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (texto !== undefined) e.textContent = texto;
+    return e;
+  }
+
+  function mostrarGaleria() {
+    detalle.classList.remove('open');
+    galeria.style.display = '';
+  }
+
+  function mostrarPersonaje(p) {
+    galeria.style.display = 'none';
+    detalle.classList.add('open');
+    document.getElementById('titulo').textContent = `${p.skin} (${p.criatura})`;
+
+    const anims = document.getElementById('anims');
+    const dirs = document.getElementById('dirs');
+    anims.replaceChildren();
+    dirs.replaceChildren();
+
+    const nombresAnim = Object.keys(p.animaciones);
+    const pintarAnim = (nombre, boton) => {
+      anims.querySelectorAll('button').forEach(b => b.classList.remove('activa'));
+      boton.classList.add('activa');
+      dirs.replaceChildren();
+      p.animaciones[nombre].forEach((ruta, i) => {
+        const caja = el('div', 'dir');
+        const img = el('img');
+        img.src = ruta;
+        img.alt = `${nombre} ${DIRS[i]}`;
+        img.loading = 'lazy';
+        caja.append(img, el('div', null, `${nombre} · ${DIRS[i]}`));
+        dirs.append(caja);
+      });
+    };
+
+    nombresAnim.forEach((nombre, i) => {
+      const b = el('button', null, nombre);
+      b.addEventListener('click', () => pintarAnim(nombre, b));
+      anims.append(b);
+      if (i === 0) pintarAnim(nombre, b);
+    });
+    window.scrollTo(0, 0);
+  }
+
+  function pintarGaleria() {
+    personajes.forEach(p => {
+      const card = el('div', 'card');
+      const img = el('img');
+      img.src = p.portada;
+      img.alt = p.id;
+      img.loading = 'lazy';
+      card.append(img, el('div', 'name', p.id), el('div', 'sub', `${p.criatura} · ${p.skin}`));
+      card.addEventListener('click', () => mostrarPersonaje(p));
+      galeria.append(card);
+    });
+  }
+
+  document.getElementById('volver').addEventListener('click', mostrarGaleria);
+
+  fetch('catalogo.json')
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(datos => {
+      personajes = datos;
+      resumen.textContent = `${datos.length} personajes, cada uno con su GIF de portada y GIFs por animación y dirección.`;
+      pintarGaleria();
+    })
+    .catch(err => {
+      resumen.textContent = `No se pudo cargar catalogo.json (${err.message}). Abrí la página desde un servidor, no con file://.`;
+      resumen.classList.add('error');
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,3896 @@
+[
+ {
+  "id": "caballero",
+  "criatura": "humano",
+  "skin": "caballero_carmesi",
+  "portada": "gifs/humano/caballero.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/humano/caballero/agachar/S.gif",
+    "gifs/humano/caballero/agachar/SE.gif",
+    "gifs/humano/caballero/agachar/E.gif",
+    "gifs/humano/caballero/agachar/NE.gif",
+    "gifs/humano/caballero/agachar/N.gif",
+    "gifs/humano/caballero/agachar/NW.gif",
+    "gifs/humano/caballero/agachar/W.gif",
+    "gifs/humano/caballero/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/humano/caballero/blandir/S.gif",
+    "gifs/humano/caballero/blandir/SE.gif",
+    "gifs/humano/caballero/blandir/E.gif",
+    "gifs/humano/caballero/blandir/NE.gif",
+    "gifs/humano/caballero/blandir/N.gif",
+    "gifs/humano/caballero/blandir/NW.gif",
+    "gifs/humano/caballero/blandir/W.gif",
+    "gifs/humano/caballero/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/humano/caballero/caminar/S.gif",
+    "gifs/humano/caballero/caminar/SE.gif",
+    "gifs/humano/caballero/caminar/E.gif",
+    "gifs/humano/caballero/caminar/NE.gif",
+    "gifs/humano/caballero/caminar/N.gif",
+    "gifs/humano/caballero/caminar/NW.gif",
+    "gifs/humano/caballero/caminar/W.gif",
+    "gifs/humano/caballero/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/humano/caballero/caminar_lpc/S.gif",
+    "gifs/humano/caballero/caminar_lpc/SE.gif",
+    "gifs/humano/caballero/caminar_lpc/E.gif",
+    "gifs/humano/caballero/caminar_lpc/NE.gif",
+    "gifs/humano/caballero/caminar_lpc/N.gif",
+    "gifs/humano/caballero/caminar_lpc/NW.gif",
+    "gifs/humano/caballero/caminar_lpc/W.gif",
+    "gifs/humano/caballero/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/humano/caballero/combo/S.gif",
+    "gifs/humano/caballero/combo/SE.gif",
+    "gifs/humano/caballero/combo/E.gif",
+    "gifs/humano/caballero/combo/NE.gif",
+    "gifs/humano/caballero/combo/N.gif",
+    "gifs/humano/caballero/combo/NW.gif",
+    "gifs/humano/caballero/combo/W.gif",
+    "gifs/humano/caballero/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/humano/caballero/correr/S.gif",
+    "gifs/humano/caballero/correr/SE.gif",
+    "gifs/humano/caballero/correr/E.gif",
+    "gifs/humano/caballero/correr/NE.gif",
+    "gifs/humano/caballero/correr/N.gif",
+    "gifs/humano/caballero/correr/NW.gif",
+    "gifs/humano/caballero/correr/W.gif",
+    "gifs/humano/caballero/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/humano/caballero/desenvainar/S.gif",
+    "gifs/humano/caballero/desenvainar/SE.gif",
+    "gifs/humano/caballero/desenvainar/E.gif",
+    "gifs/humano/caballero/desenvainar/NE.gif",
+    "gifs/humano/caballero/desenvainar/N.gif",
+    "gifs/humano/caballero/desenvainar/NW.gif",
+    "gifs/humano/caballero/desenvainar/W.gif",
+    "gifs/humano/caballero/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/humano/caballero/golpear/S.gif",
+    "gifs/humano/caballero/golpear/SE.gif",
+    "gifs/humano/caballero/golpear/E.gif",
+    "gifs/humano/caballero/golpear/NE.gif",
+    "gifs/humano/caballero/golpear/N.gif",
+    "gifs/humano/caballero/golpear/NW.gif",
+    "gifs/humano/caballero/golpear/W.gif",
+    "gifs/humano/caballero/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/humano/caballero/neutra/S.gif",
+    "gifs/humano/caballero/neutra/SE.gif",
+    "gifs/humano/caballero/neutra/E.gif",
+    "gifs/humano/caballero/neutra/NE.gif",
+    "gifs/humano/caballero/neutra/N.gif",
+    "gifs/humano/caballero/neutra/NW.gif",
+    "gifs/humano/caballero/neutra/W.gif",
+    "gifs/humano/caballero/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/humano/caballero/quieto/S.gif",
+    "gifs/humano/caballero/quieto/SE.gif",
+    "gifs/humano/caballero/quieto/E.gif",
+    "gifs/humano/caballero/quieto/NE.gif",
+    "gifs/humano/caballero/quieto/N.gif",
+    "gifs/humano/caballero/quieto/NW.gif",
+    "gifs/humano/caballero/quieto/W.gif",
+    "gifs/humano/caballero/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/humano/caballero/saltar/S.gif",
+    "gifs/humano/caballero/saltar/SE.gif",
+    "gifs/humano/caballero/saltar/E.gif",
+    "gifs/humano/caballero/saltar/NE.gif",
+    "gifs/humano/caballero/saltar/N.gif",
+    "gifs/humano/caballero/saltar/NW.gif",
+    "gifs/humano/caballero/saltar/W.gif",
+    "gifs/humano/caballero/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "ciclope_bronce",
+  "criatura": "ciclope",
+  "skin": "ciclope_bronce",
+  "portada": "gifs/ciclope/ciclope_bronce.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/ciclope/ciclope_bronce/agachar/S.gif",
+    "gifs/ciclope/ciclope_bronce/agachar/SE.gif",
+    "gifs/ciclope/ciclope_bronce/agachar/E.gif",
+    "gifs/ciclope/ciclope_bronce/agachar/NE.gif",
+    "gifs/ciclope/ciclope_bronce/agachar/N.gif",
+    "gifs/ciclope/ciclope_bronce/agachar/NW.gif",
+    "gifs/ciclope/ciclope_bronce/agachar/W.gif",
+    "gifs/ciclope/ciclope_bronce/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/ciclope/ciclope_bronce/blandir/S.gif",
+    "gifs/ciclope/ciclope_bronce/blandir/SE.gif",
+    "gifs/ciclope/ciclope_bronce/blandir/E.gif",
+    "gifs/ciclope/ciclope_bronce/blandir/NE.gif",
+    "gifs/ciclope/ciclope_bronce/blandir/N.gif",
+    "gifs/ciclope/ciclope_bronce/blandir/NW.gif",
+    "gifs/ciclope/ciclope_bronce/blandir/W.gif",
+    "gifs/ciclope/ciclope_bronce/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/ciclope/ciclope_bronce/caminar/S.gif",
+    "gifs/ciclope/ciclope_bronce/caminar/SE.gif",
+    "gifs/ciclope/ciclope_bronce/caminar/E.gif",
+    "gifs/ciclope/ciclope_bronce/caminar/NE.gif",
+    "gifs/ciclope/ciclope_bronce/caminar/N.gif",
+    "gifs/ciclope/ciclope_bronce/caminar/NW.gif",
+    "gifs/ciclope/ciclope_bronce/caminar/W.gif",
+    "gifs/ciclope/ciclope_bronce/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/ciclope/ciclope_bronce/caminar_lpc/S.gif",
+    "gifs/ciclope/ciclope_bronce/caminar_lpc/SE.gif",
+    "gifs/ciclope/ciclope_bronce/caminar_lpc/E.gif",
+    "gifs/ciclope/ciclope_bronce/caminar_lpc/NE.gif",
+    "gifs/ciclope/ciclope_bronce/caminar_lpc/N.gif",
+    "gifs/ciclope/ciclope_bronce/caminar_lpc/NW.gif",
+    "gifs/ciclope/ciclope_bronce/caminar_lpc/W.gif",
+    "gifs/ciclope/ciclope_bronce/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/ciclope/ciclope_bronce/combo/S.gif",
+    "gifs/ciclope/ciclope_bronce/combo/SE.gif",
+    "gifs/ciclope/ciclope_bronce/combo/E.gif",
+    "gifs/ciclope/ciclope_bronce/combo/NE.gif",
+    "gifs/ciclope/ciclope_bronce/combo/N.gif",
+    "gifs/ciclope/ciclope_bronce/combo/NW.gif",
+    "gifs/ciclope/ciclope_bronce/combo/W.gif",
+    "gifs/ciclope/ciclope_bronce/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/ciclope/ciclope_bronce/correr/S.gif",
+    "gifs/ciclope/ciclope_bronce/correr/SE.gif",
+    "gifs/ciclope/ciclope_bronce/correr/E.gif",
+    "gifs/ciclope/ciclope_bronce/correr/NE.gif",
+    "gifs/ciclope/ciclope_bronce/correr/N.gif",
+    "gifs/ciclope/ciclope_bronce/correr/NW.gif",
+    "gifs/ciclope/ciclope_bronce/correr/W.gif",
+    "gifs/ciclope/ciclope_bronce/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/ciclope/ciclope_bronce/desenvainar/S.gif",
+    "gifs/ciclope/ciclope_bronce/desenvainar/SE.gif",
+    "gifs/ciclope/ciclope_bronce/desenvainar/E.gif",
+    "gifs/ciclope/ciclope_bronce/desenvainar/NE.gif",
+    "gifs/ciclope/ciclope_bronce/desenvainar/N.gif",
+    "gifs/ciclope/ciclope_bronce/desenvainar/NW.gif",
+    "gifs/ciclope/ciclope_bronce/desenvainar/W.gif",
+    "gifs/ciclope/ciclope_bronce/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/ciclope/ciclope_bronce/golpear/S.gif",
+    "gifs/ciclope/ciclope_bronce/golpear/SE.gif",
+    "gifs/ciclope/ciclope_bronce/golpear/E.gif",
+    "gifs/ciclope/ciclope_bronce/golpear/NE.gif",
+    "gifs/ciclope/ciclope_bronce/golpear/N.gif",
+    "gifs/ciclope/ciclope_bronce/golpear/NW.gif",
+    "gifs/ciclope/ciclope_bronce/golpear/W.gif",
+    "gifs/ciclope/ciclope_bronce/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/ciclope/ciclope_bronce/neutra/S.gif",
+    "gifs/ciclope/ciclope_bronce/neutra/SE.gif",
+    "gifs/ciclope/ciclope_bronce/neutra/E.gif",
+    "gifs/ciclope/ciclope_bronce/neutra/NE.gif",
+    "gifs/ciclope/ciclope_bronce/neutra/N.gif",
+    "gifs/ciclope/ciclope_bronce/neutra/NW.gif",
+    "gifs/ciclope/ciclope_bronce/neutra/W.gif",
+    "gifs/ciclope/ciclope_bronce/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/ciclope/ciclope_bronce/quieto/S.gif",
+    "gifs/ciclope/ciclope_bronce/quieto/SE.gif",
+    "gifs/ciclope/ciclope_bronce/quieto/E.gif",
+    "gifs/ciclope/ciclope_bronce/quieto/NE.gif",
+    "gifs/ciclope/ciclope_bronce/quieto/N.gif",
+    "gifs/ciclope/ciclope_bronce/quieto/NW.gif",
+    "gifs/ciclope/ciclope_bronce/quieto/W.gif",
+    "gifs/ciclope/ciclope_bronce/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/ciclope/ciclope_bronce/saltar/S.gif",
+    "gifs/ciclope/ciclope_bronce/saltar/SE.gif",
+    "gifs/ciclope/ciclope_bronce/saltar/E.gif",
+    "gifs/ciclope/ciclope_bronce/saltar/NE.gif",
+    "gifs/ciclope/ciclope_bronce/saltar/N.gif",
+    "gifs/ciclope/ciclope_bronce/saltar/NW.gif",
+    "gifs/ciclope/ciclope_bronce/saltar/W.gif",
+    "gifs/ciclope/ciclope_bronce/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "ciclope_pantano",
+  "criatura": "ciclope",
+  "skin": "ciclope_pantano",
+  "portada": "gifs/ciclope/ciclope_pantano.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/ciclope/ciclope_pantano/agachar/S.gif",
+    "gifs/ciclope/ciclope_pantano/agachar/SE.gif",
+    "gifs/ciclope/ciclope_pantano/agachar/E.gif",
+    "gifs/ciclope/ciclope_pantano/agachar/NE.gif",
+    "gifs/ciclope/ciclope_pantano/agachar/N.gif",
+    "gifs/ciclope/ciclope_pantano/agachar/NW.gif",
+    "gifs/ciclope/ciclope_pantano/agachar/W.gif",
+    "gifs/ciclope/ciclope_pantano/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/ciclope/ciclope_pantano/blandir/S.gif",
+    "gifs/ciclope/ciclope_pantano/blandir/SE.gif",
+    "gifs/ciclope/ciclope_pantano/blandir/E.gif",
+    "gifs/ciclope/ciclope_pantano/blandir/NE.gif",
+    "gifs/ciclope/ciclope_pantano/blandir/N.gif",
+    "gifs/ciclope/ciclope_pantano/blandir/NW.gif",
+    "gifs/ciclope/ciclope_pantano/blandir/W.gif",
+    "gifs/ciclope/ciclope_pantano/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/ciclope/ciclope_pantano/caminar/S.gif",
+    "gifs/ciclope/ciclope_pantano/caminar/SE.gif",
+    "gifs/ciclope/ciclope_pantano/caminar/E.gif",
+    "gifs/ciclope/ciclope_pantano/caminar/NE.gif",
+    "gifs/ciclope/ciclope_pantano/caminar/N.gif",
+    "gifs/ciclope/ciclope_pantano/caminar/NW.gif",
+    "gifs/ciclope/ciclope_pantano/caminar/W.gif",
+    "gifs/ciclope/ciclope_pantano/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/ciclope/ciclope_pantano/caminar_lpc/S.gif",
+    "gifs/ciclope/ciclope_pantano/caminar_lpc/SE.gif",
+    "gifs/ciclope/ciclope_pantano/caminar_lpc/E.gif",
+    "gifs/ciclope/ciclope_pantano/caminar_lpc/NE.gif",
+    "gifs/ciclope/ciclope_pantano/caminar_lpc/N.gif",
+    "gifs/ciclope/ciclope_pantano/caminar_lpc/NW.gif",
+    "gifs/ciclope/ciclope_pantano/caminar_lpc/W.gif",
+    "gifs/ciclope/ciclope_pantano/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/ciclope/ciclope_pantano/combo/S.gif",
+    "gifs/ciclope/ciclope_pantano/combo/SE.gif",
+    "gifs/ciclope/ciclope_pantano/combo/E.gif",
+    "gifs/ciclope/ciclope_pantano/combo/NE.gif",
+    "gifs/ciclope/ciclope_pantano/combo/N.gif",
+    "gifs/ciclope/ciclope_pantano/combo/NW.gif",
+    "gifs/ciclope/ciclope_pantano/combo/W.gif",
+    "gifs/ciclope/ciclope_pantano/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/ciclope/ciclope_pantano/correr/S.gif",
+    "gifs/ciclope/ciclope_pantano/correr/SE.gif",
+    "gifs/ciclope/ciclope_pantano/correr/E.gif",
+    "gifs/ciclope/ciclope_pantano/correr/NE.gif",
+    "gifs/ciclope/ciclope_pantano/correr/N.gif",
+    "gifs/ciclope/ciclope_pantano/correr/NW.gif",
+    "gifs/ciclope/ciclope_pantano/correr/W.gif",
+    "gifs/ciclope/ciclope_pantano/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/ciclope/ciclope_pantano/desenvainar/S.gif",
+    "gifs/ciclope/ciclope_pantano/desenvainar/SE.gif",
+    "gifs/ciclope/ciclope_pantano/desenvainar/E.gif",
+    "gifs/ciclope/ciclope_pantano/desenvainar/NE.gif",
+    "gifs/ciclope/ciclope_pantano/desenvainar/N.gif",
+    "gifs/ciclope/ciclope_pantano/desenvainar/NW.gif",
+    "gifs/ciclope/ciclope_pantano/desenvainar/W.gif",
+    "gifs/ciclope/ciclope_pantano/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/ciclope/ciclope_pantano/golpear/S.gif",
+    "gifs/ciclope/ciclope_pantano/golpear/SE.gif",
+    "gifs/ciclope/ciclope_pantano/golpear/E.gif",
+    "gifs/ciclope/ciclope_pantano/golpear/NE.gif",
+    "gifs/ciclope/ciclope_pantano/golpear/N.gif",
+    "gifs/ciclope/ciclope_pantano/golpear/NW.gif",
+    "gifs/ciclope/ciclope_pantano/golpear/W.gif",
+    "gifs/ciclope/ciclope_pantano/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/ciclope/ciclope_pantano/neutra/S.gif",
+    "gifs/ciclope/ciclope_pantano/neutra/SE.gif",
+    "gifs/ciclope/ciclope_pantano/neutra/E.gif",
+    "gifs/ciclope/ciclope_pantano/neutra/NE.gif",
+    "gifs/ciclope/ciclope_pantano/neutra/N.gif",
+    "gifs/ciclope/ciclope_pantano/neutra/NW.gif",
+    "gifs/ciclope/ciclope_pantano/neutra/W.gif",
+    "gifs/ciclope/ciclope_pantano/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/ciclope/ciclope_pantano/quieto/S.gif",
+    "gifs/ciclope/ciclope_pantano/quieto/SE.gif",
+    "gifs/ciclope/ciclope_pantano/quieto/E.gif",
+    "gifs/ciclope/ciclope_pantano/quieto/NE.gif",
+    "gifs/ciclope/ciclope_pantano/quieto/N.gif",
+    "gifs/ciclope/ciclope_pantano/quieto/NW.gif",
+    "gifs/ciclope/ciclope_pantano/quieto/W.gif",
+    "gifs/ciclope/ciclope_pantano/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/ciclope/ciclope_pantano/saltar/S.gif",
+    "gifs/ciclope/ciclope_pantano/saltar/SE.gif",
+    "gifs/ciclope/ciclope_pantano/saltar/E.gif",
+    "gifs/ciclope/ciclope_pantano/saltar/NE.gif",
+    "gifs/ciclope/ciclope_pantano/saltar/N.gif",
+    "gifs/ciclope/ciclope_pantano/saltar/NW.gif",
+    "gifs/ciclope/ciclope_pantano/saltar/W.gif",
+    "gifs/ciclope/ciclope_pantano/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "ciclope_piedra",
+  "criatura": "ciclope",
+  "skin": "ciclope_piedra",
+  "portada": "gifs/ciclope/ciclope_piedra.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/ciclope/ciclope_piedra/agachar/S.gif",
+    "gifs/ciclope/ciclope_piedra/agachar/SE.gif",
+    "gifs/ciclope/ciclope_piedra/agachar/E.gif",
+    "gifs/ciclope/ciclope_piedra/agachar/NE.gif",
+    "gifs/ciclope/ciclope_piedra/agachar/N.gif",
+    "gifs/ciclope/ciclope_piedra/agachar/NW.gif",
+    "gifs/ciclope/ciclope_piedra/agachar/W.gif",
+    "gifs/ciclope/ciclope_piedra/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/ciclope/ciclope_piedra/blandir/S.gif",
+    "gifs/ciclope/ciclope_piedra/blandir/SE.gif",
+    "gifs/ciclope/ciclope_piedra/blandir/E.gif",
+    "gifs/ciclope/ciclope_piedra/blandir/NE.gif",
+    "gifs/ciclope/ciclope_piedra/blandir/N.gif",
+    "gifs/ciclope/ciclope_piedra/blandir/NW.gif",
+    "gifs/ciclope/ciclope_piedra/blandir/W.gif",
+    "gifs/ciclope/ciclope_piedra/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/ciclope/ciclope_piedra/caminar/S.gif",
+    "gifs/ciclope/ciclope_piedra/caminar/SE.gif",
+    "gifs/ciclope/ciclope_piedra/caminar/E.gif",
+    "gifs/ciclope/ciclope_piedra/caminar/NE.gif",
+    "gifs/ciclope/ciclope_piedra/caminar/N.gif",
+    "gifs/ciclope/ciclope_piedra/caminar/NW.gif",
+    "gifs/ciclope/ciclope_piedra/caminar/W.gif",
+    "gifs/ciclope/ciclope_piedra/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/ciclope/ciclope_piedra/caminar_lpc/S.gif",
+    "gifs/ciclope/ciclope_piedra/caminar_lpc/SE.gif",
+    "gifs/ciclope/ciclope_piedra/caminar_lpc/E.gif",
+    "gifs/ciclope/ciclope_piedra/caminar_lpc/NE.gif",
+    "gifs/ciclope/ciclope_piedra/caminar_lpc/N.gif",
+    "gifs/ciclope/ciclope_piedra/caminar_lpc/NW.gif",
+    "gifs/ciclope/ciclope_piedra/caminar_lpc/W.gif",
+    "gifs/ciclope/ciclope_piedra/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/ciclope/ciclope_piedra/combo/S.gif",
+    "gifs/ciclope/ciclope_piedra/combo/SE.gif",
+    "gifs/ciclope/ciclope_piedra/combo/E.gif",
+    "gifs/ciclope/ciclope_piedra/combo/NE.gif",
+    "gifs/ciclope/ciclope_piedra/combo/N.gif",
+    "gifs/ciclope/ciclope_piedra/combo/NW.gif",
+    "gifs/ciclope/ciclope_piedra/combo/W.gif",
+    "gifs/ciclope/ciclope_piedra/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/ciclope/ciclope_piedra/correr/S.gif",
+    "gifs/ciclope/ciclope_piedra/correr/SE.gif",
+    "gifs/ciclope/ciclope_piedra/correr/E.gif",
+    "gifs/ciclope/ciclope_piedra/correr/NE.gif",
+    "gifs/ciclope/ciclope_piedra/correr/N.gif",
+    "gifs/ciclope/ciclope_piedra/correr/NW.gif",
+    "gifs/ciclope/ciclope_piedra/correr/W.gif",
+    "gifs/ciclope/ciclope_piedra/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/ciclope/ciclope_piedra/desenvainar/S.gif",
+    "gifs/ciclope/ciclope_piedra/desenvainar/SE.gif",
+    "gifs/ciclope/ciclope_piedra/desenvainar/E.gif",
+    "gifs/ciclope/ciclope_piedra/desenvainar/NE.gif",
+    "gifs/ciclope/ciclope_piedra/desenvainar/N.gif",
+    "gifs/ciclope/ciclope_piedra/desenvainar/NW.gif",
+    "gifs/ciclope/ciclope_piedra/desenvainar/W.gif",
+    "gifs/ciclope/ciclope_piedra/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/ciclope/ciclope_piedra/golpear/S.gif",
+    "gifs/ciclope/ciclope_piedra/golpear/SE.gif",
+    "gifs/ciclope/ciclope_piedra/golpear/E.gif",
+    "gifs/ciclope/ciclope_piedra/golpear/NE.gif",
+    "gifs/ciclope/ciclope_piedra/golpear/N.gif",
+    "gifs/ciclope/ciclope_piedra/golpear/NW.gif",
+    "gifs/ciclope/ciclope_piedra/golpear/W.gif",
+    "gifs/ciclope/ciclope_piedra/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/ciclope/ciclope_piedra/neutra/S.gif",
+    "gifs/ciclope/ciclope_piedra/neutra/SE.gif",
+    "gifs/ciclope/ciclope_piedra/neutra/E.gif",
+    "gifs/ciclope/ciclope_piedra/neutra/NE.gif",
+    "gifs/ciclope/ciclope_piedra/neutra/N.gif",
+    "gifs/ciclope/ciclope_piedra/neutra/NW.gif",
+    "gifs/ciclope/ciclope_piedra/neutra/W.gif",
+    "gifs/ciclope/ciclope_piedra/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/ciclope/ciclope_piedra/quieto/S.gif",
+    "gifs/ciclope/ciclope_piedra/quieto/SE.gif",
+    "gifs/ciclope/ciclope_piedra/quieto/E.gif",
+    "gifs/ciclope/ciclope_piedra/quieto/NE.gif",
+    "gifs/ciclope/ciclope_piedra/quieto/N.gif",
+    "gifs/ciclope/ciclope_piedra/quieto/NW.gif",
+    "gifs/ciclope/ciclope_piedra/quieto/W.gif",
+    "gifs/ciclope/ciclope_piedra/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/ciclope/ciclope_piedra/saltar/S.gif",
+    "gifs/ciclope/ciclope_piedra/saltar/SE.gif",
+    "gifs/ciclope/ciclope_piedra/saltar/E.gif",
+    "gifs/ciclope/ciclope_piedra/saltar/NE.gif",
+    "gifs/ciclope/ciclope_piedra/saltar/N.gif",
+    "gifs/ciclope/ciclope_piedra/saltar/NW.gif",
+    "gifs/ciclope/ciclope_piedra/saltar/W.gif",
+    "gifs/ciclope/ciclope_piedra/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "elfo_bosque",
+  "criatura": "elfo",
+  "skin": "elfo_bosque",
+  "portada": "gifs/elfo/elfo_bosque.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/elfo/elfo_bosque/agachar/S.gif",
+    "gifs/elfo/elfo_bosque/agachar/SE.gif",
+    "gifs/elfo/elfo_bosque/agachar/E.gif",
+    "gifs/elfo/elfo_bosque/agachar/NE.gif",
+    "gifs/elfo/elfo_bosque/agachar/N.gif",
+    "gifs/elfo/elfo_bosque/agachar/NW.gif",
+    "gifs/elfo/elfo_bosque/agachar/W.gif",
+    "gifs/elfo/elfo_bosque/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/elfo/elfo_bosque/blandir/S.gif",
+    "gifs/elfo/elfo_bosque/blandir/SE.gif",
+    "gifs/elfo/elfo_bosque/blandir/E.gif",
+    "gifs/elfo/elfo_bosque/blandir/NE.gif",
+    "gifs/elfo/elfo_bosque/blandir/N.gif",
+    "gifs/elfo/elfo_bosque/blandir/NW.gif",
+    "gifs/elfo/elfo_bosque/blandir/W.gif",
+    "gifs/elfo/elfo_bosque/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/elfo/elfo_bosque/caminar/S.gif",
+    "gifs/elfo/elfo_bosque/caminar/SE.gif",
+    "gifs/elfo/elfo_bosque/caminar/E.gif",
+    "gifs/elfo/elfo_bosque/caminar/NE.gif",
+    "gifs/elfo/elfo_bosque/caminar/N.gif",
+    "gifs/elfo/elfo_bosque/caminar/NW.gif",
+    "gifs/elfo/elfo_bosque/caminar/W.gif",
+    "gifs/elfo/elfo_bosque/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/elfo/elfo_bosque/caminar_lpc/S.gif",
+    "gifs/elfo/elfo_bosque/caminar_lpc/SE.gif",
+    "gifs/elfo/elfo_bosque/caminar_lpc/E.gif",
+    "gifs/elfo/elfo_bosque/caminar_lpc/NE.gif",
+    "gifs/elfo/elfo_bosque/caminar_lpc/N.gif",
+    "gifs/elfo/elfo_bosque/caminar_lpc/NW.gif",
+    "gifs/elfo/elfo_bosque/caminar_lpc/W.gif",
+    "gifs/elfo/elfo_bosque/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/elfo/elfo_bosque/combo/S.gif",
+    "gifs/elfo/elfo_bosque/combo/SE.gif",
+    "gifs/elfo/elfo_bosque/combo/E.gif",
+    "gifs/elfo/elfo_bosque/combo/NE.gif",
+    "gifs/elfo/elfo_bosque/combo/N.gif",
+    "gifs/elfo/elfo_bosque/combo/NW.gif",
+    "gifs/elfo/elfo_bosque/combo/W.gif",
+    "gifs/elfo/elfo_bosque/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/elfo/elfo_bosque/correr/S.gif",
+    "gifs/elfo/elfo_bosque/correr/SE.gif",
+    "gifs/elfo/elfo_bosque/correr/E.gif",
+    "gifs/elfo/elfo_bosque/correr/NE.gif",
+    "gifs/elfo/elfo_bosque/correr/N.gif",
+    "gifs/elfo/elfo_bosque/correr/NW.gif",
+    "gifs/elfo/elfo_bosque/correr/W.gif",
+    "gifs/elfo/elfo_bosque/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/elfo/elfo_bosque/desenvainar/S.gif",
+    "gifs/elfo/elfo_bosque/desenvainar/SE.gif",
+    "gifs/elfo/elfo_bosque/desenvainar/E.gif",
+    "gifs/elfo/elfo_bosque/desenvainar/NE.gif",
+    "gifs/elfo/elfo_bosque/desenvainar/N.gif",
+    "gifs/elfo/elfo_bosque/desenvainar/NW.gif",
+    "gifs/elfo/elfo_bosque/desenvainar/W.gif",
+    "gifs/elfo/elfo_bosque/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/elfo/elfo_bosque/golpear/S.gif",
+    "gifs/elfo/elfo_bosque/golpear/SE.gif",
+    "gifs/elfo/elfo_bosque/golpear/E.gif",
+    "gifs/elfo/elfo_bosque/golpear/NE.gif",
+    "gifs/elfo/elfo_bosque/golpear/N.gif",
+    "gifs/elfo/elfo_bosque/golpear/NW.gif",
+    "gifs/elfo/elfo_bosque/golpear/W.gif",
+    "gifs/elfo/elfo_bosque/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/elfo/elfo_bosque/neutra/S.gif",
+    "gifs/elfo/elfo_bosque/neutra/SE.gif",
+    "gifs/elfo/elfo_bosque/neutra/E.gif",
+    "gifs/elfo/elfo_bosque/neutra/NE.gif",
+    "gifs/elfo/elfo_bosque/neutra/N.gif",
+    "gifs/elfo/elfo_bosque/neutra/NW.gif",
+    "gifs/elfo/elfo_bosque/neutra/W.gif",
+    "gifs/elfo/elfo_bosque/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/elfo/elfo_bosque/quieto/S.gif",
+    "gifs/elfo/elfo_bosque/quieto/SE.gif",
+    "gifs/elfo/elfo_bosque/quieto/E.gif",
+    "gifs/elfo/elfo_bosque/quieto/NE.gif",
+    "gifs/elfo/elfo_bosque/quieto/N.gif",
+    "gifs/elfo/elfo_bosque/quieto/NW.gif",
+    "gifs/elfo/elfo_bosque/quieto/W.gif",
+    "gifs/elfo/elfo_bosque/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/elfo/elfo_bosque/saltar/S.gif",
+    "gifs/elfo/elfo_bosque/saltar/SE.gif",
+    "gifs/elfo/elfo_bosque/saltar/E.gif",
+    "gifs/elfo/elfo_bosque/saltar/NE.gif",
+    "gifs/elfo/elfo_bosque/saltar/N.gif",
+    "gifs/elfo/elfo_bosque/saltar/NW.gif",
+    "gifs/elfo/elfo_bosque/saltar/W.gif",
+    "gifs/elfo/elfo_bosque/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "elfo_dorado",
+  "criatura": "elfo",
+  "skin": "elfo_dorado",
+  "portada": "gifs/elfo/elfo_dorado.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/elfo/elfo_dorado/agachar/S.gif",
+    "gifs/elfo/elfo_dorado/agachar/SE.gif",
+    "gifs/elfo/elfo_dorado/agachar/E.gif",
+    "gifs/elfo/elfo_dorado/agachar/NE.gif",
+    "gifs/elfo/elfo_dorado/agachar/N.gif",
+    "gifs/elfo/elfo_dorado/agachar/NW.gif",
+    "gifs/elfo/elfo_dorado/agachar/W.gif",
+    "gifs/elfo/elfo_dorado/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/elfo/elfo_dorado/blandir/S.gif",
+    "gifs/elfo/elfo_dorado/blandir/SE.gif",
+    "gifs/elfo/elfo_dorado/blandir/E.gif",
+    "gifs/elfo/elfo_dorado/blandir/NE.gif",
+    "gifs/elfo/elfo_dorado/blandir/N.gif",
+    "gifs/elfo/elfo_dorado/blandir/NW.gif",
+    "gifs/elfo/elfo_dorado/blandir/W.gif",
+    "gifs/elfo/elfo_dorado/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/elfo/elfo_dorado/caminar/S.gif",
+    "gifs/elfo/elfo_dorado/caminar/SE.gif",
+    "gifs/elfo/elfo_dorado/caminar/E.gif",
+    "gifs/elfo/elfo_dorado/caminar/NE.gif",
+    "gifs/elfo/elfo_dorado/caminar/N.gif",
+    "gifs/elfo/elfo_dorado/caminar/NW.gif",
+    "gifs/elfo/elfo_dorado/caminar/W.gif",
+    "gifs/elfo/elfo_dorado/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/elfo/elfo_dorado/caminar_lpc/S.gif",
+    "gifs/elfo/elfo_dorado/caminar_lpc/SE.gif",
+    "gifs/elfo/elfo_dorado/caminar_lpc/E.gif",
+    "gifs/elfo/elfo_dorado/caminar_lpc/NE.gif",
+    "gifs/elfo/elfo_dorado/caminar_lpc/N.gif",
+    "gifs/elfo/elfo_dorado/caminar_lpc/NW.gif",
+    "gifs/elfo/elfo_dorado/caminar_lpc/W.gif",
+    "gifs/elfo/elfo_dorado/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/elfo/elfo_dorado/combo/S.gif",
+    "gifs/elfo/elfo_dorado/combo/SE.gif",
+    "gifs/elfo/elfo_dorado/combo/E.gif",
+    "gifs/elfo/elfo_dorado/combo/NE.gif",
+    "gifs/elfo/elfo_dorado/combo/N.gif",
+    "gifs/elfo/elfo_dorado/combo/NW.gif",
+    "gifs/elfo/elfo_dorado/combo/W.gif",
+    "gifs/elfo/elfo_dorado/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/elfo/elfo_dorado/correr/S.gif",
+    "gifs/elfo/elfo_dorado/correr/SE.gif",
+    "gifs/elfo/elfo_dorado/correr/E.gif",
+    "gifs/elfo/elfo_dorado/correr/NE.gif",
+    "gifs/elfo/elfo_dorado/correr/N.gif",
+    "gifs/elfo/elfo_dorado/correr/NW.gif",
+    "gifs/elfo/elfo_dorado/correr/W.gif",
+    "gifs/elfo/elfo_dorado/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/elfo/elfo_dorado/desenvainar/S.gif",
+    "gifs/elfo/elfo_dorado/desenvainar/SE.gif",
+    "gifs/elfo/elfo_dorado/desenvainar/E.gif",
+    "gifs/elfo/elfo_dorado/desenvainar/NE.gif",
+    "gifs/elfo/elfo_dorado/desenvainar/N.gif",
+    "gifs/elfo/elfo_dorado/desenvainar/NW.gif",
+    "gifs/elfo/elfo_dorado/desenvainar/W.gif",
+    "gifs/elfo/elfo_dorado/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/elfo/elfo_dorado/golpear/S.gif",
+    "gifs/elfo/elfo_dorado/golpear/SE.gif",
+    "gifs/elfo/elfo_dorado/golpear/E.gif",
+    "gifs/elfo/elfo_dorado/golpear/NE.gif",
+    "gifs/elfo/elfo_dorado/golpear/N.gif",
+    "gifs/elfo/elfo_dorado/golpear/NW.gif",
+    "gifs/elfo/elfo_dorado/golpear/W.gif",
+    "gifs/elfo/elfo_dorado/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/elfo/elfo_dorado/neutra/S.gif",
+    "gifs/elfo/elfo_dorado/neutra/SE.gif",
+    "gifs/elfo/elfo_dorado/neutra/E.gif",
+    "gifs/elfo/elfo_dorado/neutra/NE.gif",
+    "gifs/elfo/elfo_dorado/neutra/N.gif",
+    "gifs/elfo/elfo_dorado/neutra/NW.gif",
+    "gifs/elfo/elfo_dorado/neutra/W.gif",
+    "gifs/elfo/elfo_dorado/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/elfo/elfo_dorado/quieto/S.gif",
+    "gifs/elfo/elfo_dorado/quieto/SE.gif",
+    "gifs/elfo/elfo_dorado/quieto/E.gif",
+    "gifs/elfo/elfo_dorado/quieto/NE.gif",
+    "gifs/elfo/elfo_dorado/quieto/N.gif",
+    "gifs/elfo/elfo_dorado/quieto/NW.gif",
+    "gifs/elfo/elfo_dorado/quieto/W.gif",
+    "gifs/elfo/elfo_dorado/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/elfo/elfo_dorado/saltar/S.gif",
+    "gifs/elfo/elfo_dorado/saltar/SE.gif",
+    "gifs/elfo/elfo_dorado/saltar/E.gif",
+    "gifs/elfo/elfo_dorado/saltar/NE.gif",
+    "gifs/elfo/elfo_dorado/saltar/N.gif",
+    "gifs/elfo/elfo_dorado/saltar/NW.gif",
+    "gifs/elfo/elfo_dorado/saltar/W.gif",
+    "gifs/elfo/elfo_dorado/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "elfo_oscuro",
+  "criatura": "elfo",
+  "skin": "elfo_oscuro",
+  "portada": "gifs/elfo/elfo_oscuro.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/elfo/elfo_oscuro/agachar/S.gif",
+    "gifs/elfo/elfo_oscuro/agachar/SE.gif",
+    "gifs/elfo/elfo_oscuro/agachar/E.gif",
+    "gifs/elfo/elfo_oscuro/agachar/NE.gif",
+    "gifs/elfo/elfo_oscuro/agachar/N.gif",
+    "gifs/elfo/elfo_oscuro/agachar/NW.gif",
+    "gifs/elfo/elfo_oscuro/agachar/W.gif",
+    "gifs/elfo/elfo_oscuro/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/elfo/elfo_oscuro/blandir/S.gif",
+    "gifs/elfo/elfo_oscuro/blandir/SE.gif",
+    "gifs/elfo/elfo_oscuro/blandir/E.gif",
+    "gifs/elfo/elfo_oscuro/blandir/NE.gif",
+    "gifs/elfo/elfo_oscuro/blandir/N.gif",
+    "gifs/elfo/elfo_oscuro/blandir/NW.gif",
+    "gifs/elfo/elfo_oscuro/blandir/W.gif",
+    "gifs/elfo/elfo_oscuro/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/elfo/elfo_oscuro/caminar/S.gif",
+    "gifs/elfo/elfo_oscuro/caminar/SE.gif",
+    "gifs/elfo/elfo_oscuro/caminar/E.gif",
+    "gifs/elfo/elfo_oscuro/caminar/NE.gif",
+    "gifs/elfo/elfo_oscuro/caminar/N.gif",
+    "gifs/elfo/elfo_oscuro/caminar/NW.gif",
+    "gifs/elfo/elfo_oscuro/caminar/W.gif",
+    "gifs/elfo/elfo_oscuro/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/elfo/elfo_oscuro/caminar_lpc/S.gif",
+    "gifs/elfo/elfo_oscuro/caminar_lpc/SE.gif",
+    "gifs/elfo/elfo_oscuro/caminar_lpc/E.gif",
+    "gifs/elfo/elfo_oscuro/caminar_lpc/NE.gif",
+    "gifs/elfo/elfo_oscuro/caminar_lpc/N.gif",
+    "gifs/elfo/elfo_oscuro/caminar_lpc/NW.gif",
+    "gifs/elfo/elfo_oscuro/caminar_lpc/W.gif",
+    "gifs/elfo/elfo_oscuro/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/elfo/elfo_oscuro/combo/S.gif",
+    "gifs/elfo/elfo_oscuro/combo/SE.gif",
+    "gifs/elfo/elfo_oscuro/combo/E.gif",
+    "gifs/elfo/elfo_oscuro/combo/NE.gif",
+    "gifs/elfo/elfo_oscuro/combo/N.gif",
+    "gifs/elfo/elfo_oscuro/combo/NW.gif",
+    "gifs/elfo/elfo_oscuro/combo/W.gif",
+    "gifs/elfo/elfo_oscuro/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/elfo/elfo_oscuro/correr/S.gif",
+    "gifs/elfo/elfo_oscuro/correr/SE.gif",
+    "gifs/elfo/elfo_oscuro/correr/E.gif",
+    "gifs/elfo/elfo_oscuro/correr/NE.gif",
+    "gifs/elfo/elfo_oscuro/correr/N.gif",
+    "gifs/elfo/elfo_oscuro/correr/NW.gif",
+    "gifs/elfo/elfo_oscuro/correr/W.gif",
+    "gifs/elfo/elfo_oscuro/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/elfo/elfo_oscuro/desenvainar/S.gif",
+    "gifs/elfo/elfo_oscuro/desenvainar/SE.gif",
+    "gifs/elfo/elfo_oscuro/desenvainar/E.gif",
+    "gifs/elfo/elfo_oscuro/desenvainar/NE.gif",
+    "gifs/elfo/elfo_oscuro/desenvainar/N.gif",
+    "gifs/elfo/elfo_oscuro/desenvainar/NW.gif",
+    "gifs/elfo/elfo_oscuro/desenvainar/W.gif",
+    "gifs/elfo/elfo_oscuro/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/elfo/elfo_oscuro/golpear/S.gif",
+    "gifs/elfo/elfo_oscuro/golpear/SE.gif",
+    "gifs/elfo/elfo_oscuro/golpear/E.gif",
+    "gifs/elfo/elfo_oscuro/golpear/NE.gif",
+    "gifs/elfo/elfo_oscuro/golpear/N.gif",
+    "gifs/elfo/elfo_oscuro/golpear/NW.gif",
+    "gifs/elfo/elfo_oscuro/golpear/W.gif",
+    "gifs/elfo/elfo_oscuro/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/elfo/elfo_oscuro/neutra/S.gif",
+    "gifs/elfo/elfo_oscuro/neutra/SE.gif",
+    "gifs/elfo/elfo_oscuro/neutra/E.gif",
+    "gifs/elfo/elfo_oscuro/neutra/NE.gif",
+    "gifs/elfo/elfo_oscuro/neutra/N.gif",
+    "gifs/elfo/elfo_oscuro/neutra/NW.gif",
+    "gifs/elfo/elfo_oscuro/neutra/W.gif",
+    "gifs/elfo/elfo_oscuro/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/elfo/elfo_oscuro/quieto/S.gif",
+    "gifs/elfo/elfo_oscuro/quieto/SE.gif",
+    "gifs/elfo/elfo_oscuro/quieto/E.gif",
+    "gifs/elfo/elfo_oscuro/quieto/NE.gif",
+    "gifs/elfo/elfo_oscuro/quieto/N.gif",
+    "gifs/elfo/elfo_oscuro/quieto/NW.gif",
+    "gifs/elfo/elfo_oscuro/quieto/W.gif",
+    "gifs/elfo/elfo_oscuro/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/elfo/elfo_oscuro/saltar/S.gif",
+    "gifs/elfo/elfo_oscuro/saltar/SE.gif",
+    "gifs/elfo/elfo_oscuro/saltar/E.gif",
+    "gifs/elfo/elfo_oscuro/saltar/NE.gif",
+    "gifs/elfo/elfo_oscuro/saltar/N.gif",
+    "gifs/elfo/elfo_oscuro/saltar/NW.gif",
+    "gifs/elfo/elfo_oscuro/saltar/W.gif",
+    "gifs/elfo/elfo_oscuro/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "enano_bronce",
+  "criatura": "enano",
+  "skin": "enano_bronce",
+  "portada": "gifs/enano/enano_bronce.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/enano/enano_bronce/agachar/S.gif",
+    "gifs/enano/enano_bronce/agachar/SE.gif",
+    "gifs/enano/enano_bronce/agachar/E.gif",
+    "gifs/enano/enano_bronce/agachar/NE.gif",
+    "gifs/enano/enano_bronce/agachar/N.gif",
+    "gifs/enano/enano_bronce/agachar/NW.gif",
+    "gifs/enano/enano_bronce/agachar/W.gif",
+    "gifs/enano/enano_bronce/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/enano/enano_bronce/blandir/S.gif",
+    "gifs/enano/enano_bronce/blandir/SE.gif",
+    "gifs/enano/enano_bronce/blandir/E.gif",
+    "gifs/enano/enano_bronce/blandir/NE.gif",
+    "gifs/enano/enano_bronce/blandir/N.gif",
+    "gifs/enano/enano_bronce/blandir/NW.gif",
+    "gifs/enano/enano_bronce/blandir/W.gif",
+    "gifs/enano/enano_bronce/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/enano/enano_bronce/caminar/S.gif",
+    "gifs/enano/enano_bronce/caminar/SE.gif",
+    "gifs/enano/enano_bronce/caminar/E.gif",
+    "gifs/enano/enano_bronce/caminar/NE.gif",
+    "gifs/enano/enano_bronce/caminar/N.gif",
+    "gifs/enano/enano_bronce/caminar/NW.gif",
+    "gifs/enano/enano_bronce/caminar/W.gif",
+    "gifs/enano/enano_bronce/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/enano/enano_bronce/caminar_lpc/S.gif",
+    "gifs/enano/enano_bronce/caminar_lpc/SE.gif",
+    "gifs/enano/enano_bronce/caminar_lpc/E.gif",
+    "gifs/enano/enano_bronce/caminar_lpc/NE.gif",
+    "gifs/enano/enano_bronce/caminar_lpc/N.gif",
+    "gifs/enano/enano_bronce/caminar_lpc/NW.gif",
+    "gifs/enano/enano_bronce/caminar_lpc/W.gif",
+    "gifs/enano/enano_bronce/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/enano/enano_bronce/combo/S.gif",
+    "gifs/enano/enano_bronce/combo/SE.gif",
+    "gifs/enano/enano_bronce/combo/E.gif",
+    "gifs/enano/enano_bronce/combo/NE.gif",
+    "gifs/enano/enano_bronce/combo/N.gif",
+    "gifs/enano/enano_bronce/combo/NW.gif",
+    "gifs/enano/enano_bronce/combo/W.gif",
+    "gifs/enano/enano_bronce/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/enano/enano_bronce/correr/S.gif",
+    "gifs/enano/enano_bronce/correr/SE.gif",
+    "gifs/enano/enano_bronce/correr/E.gif",
+    "gifs/enano/enano_bronce/correr/NE.gif",
+    "gifs/enano/enano_bronce/correr/N.gif",
+    "gifs/enano/enano_bronce/correr/NW.gif",
+    "gifs/enano/enano_bronce/correr/W.gif",
+    "gifs/enano/enano_bronce/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/enano/enano_bronce/desenvainar/S.gif",
+    "gifs/enano/enano_bronce/desenvainar/SE.gif",
+    "gifs/enano/enano_bronce/desenvainar/E.gif",
+    "gifs/enano/enano_bronce/desenvainar/NE.gif",
+    "gifs/enano/enano_bronce/desenvainar/N.gif",
+    "gifs/enano/enano_bronce/desenvainar/NW.gif",
+    "gifs/enano/enano_bronce/desenvainar/W.gif",
+    "gifs/enano/enano_bronce/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/enano/enano_bronce/golpear/S.gif",
+    "gifs/enano/enano_bronce/golpear/SE.gif",
+    "gifs/enano/enano_bronce/golpear/E.gif",
+    "gifs/enano/enano_bronce/golpear/NE.gif",
+    "gifs/enano/enano_bronce/golpear/N.gif",
+    "gifs/enano/enano_bronce/golpear/NW.gif",
+    "gifs/enano/enano_bronce/golpear/W.gif",
+    "gifs/enano/enano_bronce/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/enano/enano_bronce/neutra/S.gif",
+    "gifs/enano/enano_bronce/neutra/SE.gif",
+    "gifs/enano/enano_bronce/neutra/E.gif",
+    "gifs/enano/enano_bronce/neutra/NE.gif",
+    "gifs/enano/enano_bronce/neutra/N.gif",
+    "gifs/enano/enano_bronce/neutra/NW.gif",
+    "gifs/enano/enano_bronce/neutra/W.gif",
+    "gifs/enano/enano_bronce/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/enano/enano_bronce/quieto/S.gif",
+    "gifs/enano/enano_bronce/quieto/SE.gif",
+    "gifs/enano/enano_bronce/quieto/E.gif",
+    "gifs/enano/enano_bronce/quieto/NE.gif",
+    "gifs/enano/enano_bronce/quieto/N.gif",
+    "gifs/enano/enano_bronce/quieto/NW.gif",
+    "gifs/enano/enano_bronce/quieto/W.gif",
+    "gifs/enano/enano_bronce/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/enano/enano_bronce/saltar/S.gif",
+    "gifs/enano/enano_bronce/saltar/SE.gif",
+    "gifs/enano/enano_bronce/saltar/E.gif",
+    "gifs/enano/enano_bronce/saltar/NE.gif",
+    "gifs/enano/enano_bronce/saltar/N.gif",
+    "gifs/enano/enano_bronce/saltar/NW.gif",
+    "gifs/enano/enano_bronce/saltar/W.gif",
+    "gifs/enano/enano_bronce/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "enano_hierro",
+  "criatura": "enano",
+  "skin": "enano_hierro",
+  "portada": "gifs/enano/enano_hierro.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/enano/enano_hierro/agachar/S.gif",
+    "gifs/enano/enano_hierro/agachar/SE.gif",
+    "gifs/enano/enano_hierro/agachar/E.gif",
+    "gifs/enano/enano_hierro/agachar/NE.gif",
+    "gifs/enano/enano_hierro/agachar/N.gif",
+    "gifs/enano/enano_hierro/agachar/NW.gif",
+    "gifs/enano/enano_hierro/agachar/W.gif",
+    "gifs/enano/enano_hierro/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/enano/enano_hierro/blandir/S.gif",
+    "gifs/enano/enano_hierro/blandir/SE.gif",
+    "gifs/enano/enano_hierro/blandir/E.gif",
+    "gifs/enano/enano_hierro/blandir/NE.gif",
+    "gifs/enano/enano_hierro/blandir/N.gif",
+    "gifs/enano/enano_hierro/blandir/NW.gif",
+    "gifs/enano/enano_hierro/blandir/W.gif",
+    "gifs/enano/enano_hierro/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/enano/enano_hierro/caminar/S.gif",
+    "gifs/enano/enano_hierro/caminar/SE.gif",
+    "gifs/enano/enano_hierro/caminar/E.gif",
+    "gifs/enano/enano_hierro/caminar/NE.gif",
+    "gifs/enano/enano_hierro/caminar/N.gif",
+    "gifs/enano/enano_hierro/caminar/NW.gif",
+    "gifs/enano/enano_hierro/caminar/W.gif",
+    "gifs/enano/enano_hierro/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/enano/enano_hierro/caminar_lpc/S.gif",
+    "gifs/enano/enano_hierro/caminar_lpc/SE.gif",
+    "gifs/enano/enano_hierro/caminar_lpc/E.gif",
+    "gifs/enano/enano_hierro/caminar_lpc/NE.gif",
+    "gifs/enano/enano_hierro/caminar_lpc/N.gif",
+    "gifs/enano/enano_hierro/caminar_lpc/NW.gif",
+    "gifs/enano/enano_hierro/caminar_lpc/W.gif",
+    "gifs/enano/enano_hierro/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/enano/enano_hierro/combo/S.gif",
+    "gifs/enano/enano_hierro/combo/SE.gif",
+    "gifs/enano/enano_hierro/combo/E.gif",
+    "gifs/enano/enano_hierro/combo/NE.gif",
+    "gifs/enano/enano_hierro/combo/N.gif",
+    "gifs/enano/enano_hierro/combo/NW.gif",
+    "gifs/enano/enano_hierro/combo/W.gif",
+    "gifs/enano/enano_hierro/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/enano/enano_hierro/correr/S.gif",
+    "gifs/enano/enano_hierro/correr/SE.gif",
+    "gifs/enano/enano_hierro/correr/E.gif",
+    "gifs/enano/enano_hierro/correr/NE.gif",
+    "gifs/enano/enano_hierro/correr/N.gif",
+    "gifs/enano/enano_hierro/correr/NW.gif",
+    "gifs/enano/enano_hierro/correr/W.gif",
+    "gifs/enano/enano_hierro/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/enano/enano_hierro/desenvainar/S.gif",
+    "gifs/enano/enano_hierro/desenvainar/SE.gif",
+    "gifs/enano/enano_hierro/desenvainar/E.gif",
+    "gifs/enano/enano_hierro/desenvainar/NE.gif",
+    "gifs/enano/enano_hierro/desenvainar/N.gif",
+    "gifs/enano/enano_hierro/desenvainar/NW.gif",
+    "gifs/enano/enano_hierro/desenvainar/W.gif",
+    "gifs/enano/enano_hierro/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/enano/enano_hierro/golpear/S.gif",
+    "gifs/enano/enano_hierro/golpear/SE.gif",
+    "gifs/enano/enano_hierro/golpear/E.gif",
+    "gifs/enano/enano_hierro/golpear/NE.gif",
+    "gifs/enano/enano_hierro/golpear/N.gif",
+    "gifs/enano/enano_hierro/golpear/NW.gif",
+    "gifs/enano/enano_hierro/golpear/W.gif",
+    "gifs/enano/enano_hierro/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/enano/enano_hierro/neutra/S.gif",
+    "gifs/enano/enano_hierro/neutra/SE.gif",
+    "gifs/enano/enano_hierro/neutra/E.gif",
+    "gifs/enano/enano_hierro/neutra/NE.gif",
+    "gifs/enano/enano_hierro/neutra/N.gif",
+    "gifs/enano/enano_hierro/neutra/NW.gif",
+    "gifs/enano/enano_hierro/neutra/W.gif",
+    "gifs/enano/enano_hierro/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/enano/enano_hierro/quieto/S.gif",
+    "gifs/enano/enano_hierro/quieto/SE.gif",
+    "gifs/enano/enano_hierro/quieto/E.gif",
+    "gifs/enano/enano_hierro/quieto/NE.gif",
+    "gifs/enano/enano_hierro/quieto/N.gif",
+    "gifs/enano/enano_hierro/quieto/NW.gif",
+    "gifs/enano/enano_hierro/quieto/W.gif",
+    "gifs/enano/enano_hierro/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/enano/enano_hierro/saltar/S.gif",
+    "gifs/enano/enano_hierro/saltar/SE.gif",
+    "gifs/enano/enano_hierro/saltar/E.gif",
+    "gifs/enano/enano_hierro/saltar/NE.gif",
+    "gifs/enano/enano_hierro/saltar/N.gif",
+    "gifs/enano/enano_hierro/saltar/NW.gif",
+    "gifs/enano/enano_hierro/saltar/W.gif",
+    "gifs/enano/enano_hierro/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "enano_mina",
+  "criatura": "enano",
+  "skin": "enano_mina",
+  "portada": "gifs/enano/enano_mina.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/enano/enano_mina/agachar/S.gif",
+    "gifs/enano/enano_mina/agachar/SE.gif",
+    "gifs/enano/enano_mina/agachar/E.gif",
+    "gifs/enano/enano_mina/agachar/NE.gif",
+    "gifs/enano/enano_mina/agachar/N.gif",
+    "gifs/enano/enano_mina/agachar/NW.gif",
+    "gifs/enano/enano_mina/agachar/W.gif",
+    "gifs/enano/enano_mina/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/enano/enano_mina/blandir/S.gif",
+    "gifs/enano/enano_mina/blandir/SE.gif",
+    "gifs/enano/enano_mina/blandir/E.gif",
+    "gifs/enano/enano_mina/blandir/NE.gif",
+    "gifs/enano/enano_mina/blandir/N.gif",
+    "gifs/enano/enano_mina/blandir/NW.gif",
+    "gifs/enano/enano_mina/blandir/W.gif",
+    "gifs/enano/enano_mina/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/enano/enano_mina/caminar/S.gif",
+    "gifs/enano/enano_mina/caminar/SE.gif",
+    "gifs/enano/enano_mina/caminar/E.gif",
+    "gifs/enano/enano_mina/caminar/NE.gif",
+    "gifs/enano/enano_mina/caminar/N.gif",
+    "gifs/enano/enano_mina/caminar/NW.gif",
+    "gifs/enano/enano_mina/caminar/W.gif",
+    "gifs/enano/enano_mina/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/enano/enano_mina/caminar_lpc/S.gif",
+    "gifs/enano/enano_mina/caminar_lpc/SE.gif",
+    "gifs/enano/enano_mina/caminar_lpc/E.gif",
+    "gifs/enano/enano_mina/caminar_lpc/NE.gif",
+    "gifs/enano/enano_mina/caminar_lpc/N.gif",
+    "gifs/enano/enano_mina/caminar_lpc/NW.gif",
+    "gifs/enano/enano_mina/caminar_lpc/W.gif",
+    "gifs/enano/enano_mina/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/enano/enano_mina/combo/S.gif",
+    "gifs/enano/enano_mina/combo/SE.gif",
+    "gifs/enano/enano_mina/combo/E.gif",
+    "gifs/enano/enano_mina/combo/NE.gif",
+    "gifs/enano/enano_mina/combo/N.gif",
+    "gifs/enano/enano_mina/combo/NW.gif",
+    "gifs/enano/enano_mina/combo/W.gif",
+    "gifs/enano/enano_mina/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/enano/enano_mina/correr/S.gif",
+    "gifs/enano/enano_mina/correr/SE.gif",
+    "gifs/enano/enano_mina/correr/E.gif",
+    "gifs/enano/enano_mina/correr/NE.gif",
+    "gifs/enano/enano_mina/correr/N.gif",
+    "gifs/enano/enano_mina/correr/NW.gif",
+    "gifs/enano/enano_mina/correr/W.gif",
+    "gifs/enano/enano_mina/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/enano/enano_mina/desenvainar/S.gif",
+    "gifs/enano/enano_mina/desenvainar/SE.gif",
+    "gifs/enano/enano_mina/desenvainar/E.gif",
+    "gifs/enano/enano_mina/desenvainar/NE.gif",
+    "gifs/enano/enano_mina/desenvainar/N.gif",
+    "gifs/enano/enano_mina/desenvainar/NW.gif",
+    "gifs/enano/enano_mina/desenvainar/W.gif",
+    "gifs/enano/enano_mina/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/enano/enano_mina/golpear/S.gif",
+    "gifs/enano/enano_mina/golpear/SE.gif",
+    "gifs/enano/enano_mina/golpear/E.gif",
+    "gifs/enano/enano_mina/golpear/NE.gif",
+    "gifs/enano/enano_mina/golpear/N.gif",
+    "gifs/enano/enano_mina/golpear/NW.gif",
+    "gifs/enano/enano_mina/golpear/W.gif",
+    "gifs/enano/enano_mina/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/enano/enano_mina/neutra/S.gif",
+    "gifs/enano/enano_mina/neutra/SE.gif",
+    "gifs/enano/enano_mina/neutra/E.gif",
+    "gifs/enano/enano_mina/neutra/NE.gif",
+    "gifs/enano/enano_mina/neutra/N.gif",
+    "gifs/enano/enano_mina/neutra/NW.gif",
+    "gifs/enano/enano_mina/neutra/W.gif",
+    "gifs/enano/enano_mina/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/enano/enano_mina/quieto/S.gif",
+    "gifs/enano/enano_mina/quieto/SE.gif",
+    "gifs/enano/enano_mina/quieto/E.gif",
+    "gifs/enano/enano_mina/quieto/NE.gif",
+    "gifs/enano/enano_mina/quieto/N.gif",
+    "gifs/enano/enano_mina/quieto/NW.gif",
+    "gifs/enano/enano_mina/quieto/W.gif",
+    "gifs/enano/enano_mina/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/enano/enano_mina/saltar/S.gif",
+    "gifs/enano/enano_mina/saltar/SE.gif",
+    "gifs/enano/enano_mina/saltar/E.gif",
+    "gifs/enano/enano_mina/saltar/NE.gif",
+    "gifs/enano/enano_mina/saltar/N.gif",
+    "gifs/enano/enano_mina/saltar/NW.gif",
+    "gifs/enano/enano_mina/saltar/W.gif",
+    "gifs/enano/enano_mina/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "esqueleto_ceniza",
+  "criatura": "esqueleto",
+  "skin": "esqueleto_ceniza",
+  "portada": "gifs/esqueleto/esqueleto_ceniza.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/esqueleto/esqueleto_ceniza/agachar/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/agachar/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/agachar/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/agachar/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/agachar/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/agachar/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/agachar/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/esqueleto/esqueleto_ceniza/blandir/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/blandir/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/blandir/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/blandir/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/blandir/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/blandir/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/blandir/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/esqueleto/esqueleto_ceniza/caminar/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/esqueleto/esqueleto_ceniza/caminar_lpc/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar_lpc/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar_lpc/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar_lpc/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar_lpc/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar_lpc/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar_lpc/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/esqueleto/esqueleto_ceniza/combo/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/combo/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/combo/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/combo/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/combo/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/combo/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/combo/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/esqueleto/esqueleto_ceniza/correr/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/correr/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/correr/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/correr/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/correr/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/correr/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/correr/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/esqueleto/esqueleto_ceniza/desenvainar/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/desenvainar/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/desenvainar/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/desenvainar/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/desenvainar/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/desenvainar/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/desenvainar/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/esqueleto/esqueleto_ceniza/golpear/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/golpear/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/golpear/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/golpear/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/golpear/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/golpear/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/golpear/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/esqueleto/esqueleto_ceniza/neutra/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/neutra/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/neutra/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/neutra/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/neutra/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/neutra/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/neutra/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/esqueleto/esqueleto_ceniza/quieto/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/quieto/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/quieto/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/quieto/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/quieto/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/quieto/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/quieto/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/esqueleto/esqueleto_ceniza/saltar/S.gif",
+    "gifs/esqueleto/esqueleto_ceniza/saltar/SE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/saltar/E.gif",
+    "gifs/esqueleto/esqueleto_ceniza/saltar/NE.gif",
+    "gifs/esqueleto/esqueleto_ceniza/saltar/N.gif",
+    "gifs/esqueleto/esqueleto_ceniza/saltar/NW.gif",
+    "gifs/esqueleto/esqueleto_ceniza/saltar/W.gif",
+    "gifs/esqueleto/esqueleto_ceniza/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "esqueleto_hueso",
+  "criatura": "esqueleto",
+  "skin": "esqueleto_hueso",
+  "portada": "gifs/esqueleto/esqueleto_hueso.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/esqueleto/esqueleto_hueso/agachar/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/agachar/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/agachar/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/agachar/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/agachar/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/agachar/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/agachar/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/esqueleto/esqueleto_hueso/blandir/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/blandir/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/blandir/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/blandir/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/blandir/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/blandir/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/blandir/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/esqueleto/esqueleto_hueso/caminar/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/esqueleto/esqueleto_hueso/caminar_lpc/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar_lpc/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar_lpc/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar_lpc/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar_lpc/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar_lpc/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar_lpc/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/esqueleto/esqueleto_hueso/combo/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/combo/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/combo/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/combo/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/combo/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/combo/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/combo/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/esqueleto/esqueleto_hueso/correr/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/correr/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/correr/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/correr/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/correr/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/correr/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/correr/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/esqueleto/esqueleto_hueso/desenvainar/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/desenvainar/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/desenvainar/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/desenvainar/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/desenvainar/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/desenvainar/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/desenvainar/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/esqueleto/esqueleto_hueso/golpear/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/golpear/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/golpear/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/golpear/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/golpear/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/golpear/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/golpear/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/esqueleto/esqueleto_hueso/neutra/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/neutra/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/neutra/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/neutra/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/neutra/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/neutra/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/neutra/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/esqueleto/esqueleto_hueso/quieto/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/quieto/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/quieto/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/quieto/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/quieto/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/quieto/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/quieto/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/esqueleto/esqueleto_hueso/saltar/S.gif",
+    "gifs/esqueleto/esqueleto_hueso/saltar/SE.gif",
+    "gifs/esqueleto/esqueleto_hueso/saltar/E.gif",
+    "gifs/esqueleto/esqueleto_hueso/saltar/NE.gif",
+    "gifs/esqueleto/esqueleto_hueso/saltar/N.gif",
+    "gifs/esqueleto/esqueleto_hueso/saltar/NW.gif",
+    "gifs/esqueleto/esqueleto_hueso/saltar/W.gif",
+    "gifs/esqueleto/esqueleto_hueso/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "esqueleto_oxidado",
+  "criatura": "esqueleto",
+  "skin": "esqueleto_oxidado",
+  "portada": "gifs/esqueleto/esqueleto_oxidado.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/esqueleto/esqueleto_oxidado/agachar/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/agachar/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/agachar/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/agachar/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/agachar/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/agachar/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/agachar/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/esqueleto/esqueleto_oxidado/blandir/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/blandir/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/blandir/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/blandir/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/blandir/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/blandir/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/blandir/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/esqueleto/esqueleto_oxidado/caminar/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/esqueleto/esqueleto_oxidado/caminar_lpc/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar_lpc/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar_lpc/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar_lpc/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar_lpc/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar_lpc/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar_lpc/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/esqueleto/esqueleto_oxidado/combo/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/combo/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/combo/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/combo/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/combo/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/combo/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/combo/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/esqueleto/esqueleto_oxidado/correr/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/correr/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/correr/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/correr/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/correr/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/correr/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/correr/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/esqueleto/esqueleto_oxidado/desenvainar/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/desenvainar/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/desenvainar/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/desenvainar/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/desenvainar/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/desenvainar/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/desenvainar/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/esqueleto/esqueleto_oxidado/golpear/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/golpear/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/golpear/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/golpear/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/golpear/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/golpear/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/golpear/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/esqueleto/esqueleto_oxidado/neutra/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/neutra/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/neutra/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/neutra/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/neutra/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/neutra/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/neutra/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/esqueleto/esqueleto_oxidado/quieto/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/quieto/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/quieto/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/quieto/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/quieto/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/quieto/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/quieto/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/esqueleto/esqueleto_oxidado/saltar/S.gif",
+    "gifs/esqueleto/esqueleto_oxidado/saltar/SE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/saltar/E.gif",
+    "gifs/esqueleto/esqueleto_oxidado/saltar/NE.gif",
+    "gifs/esqueleto/esqueleto_oxidado/saltar/N.gif",
+    "gifs/esqueleto/esqueleto_oxidado/saltar/NW.gif",
+    "gifs/esqueleto/esqueleto_oxidado/saltar/W.gif",
+    "gifs/esqueleto/esqueleto_oxidado/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "gnomo",
+  "criatura": "gnomo",
+  "skin": "gnomo",
+  "portada": "gifs/gnomo/gnomo.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/gnomo/gnomo/agachar/S.gif",
+    "gifs/gnomo/gnomo/agachar/SE.gif",
+    "gifs/gnomo/gnomo/agachar/E.gif",
+    "gifs/gnomo/gnomo/agachar/NE.gif",
+    "gifs/gnomo/gnomo/agachar/N.gif",
+    "gifs/gnomo/gnomo/agachar/NW.gif",
+    "gifs/gnomo/gnomo/agachar/W.gif",
+    "gifs/gnomo/gnomo/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/gnomo/gnomo/blandir/S.gif",
+    "gifs/gnomo/gnomo/blandir/SE.gif",
+    "gifs/gnomo/gnomo/blandir/E.gif",
+    "gifs/gnomo/gnomo/blandir/NE.gif",
+    "gifs/gnomo/gnomo/blandir/N.gif",
+    "gifs/gnomo/gnomo/blandir/NW.gif",
+    "gifs/gnomo/gnomo/blandir/W.gif",
+    "gifs/gnomo/gnomo/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/gnomo/gnomo/caminar/S.gif",
+    "gifs/gnomo/gnomo/caminar/SE.gif",
+    "gifs/gnomo/gnomo/caminar/E.gif",
+    "gifs/gnomo/gnomo/caminar/NE.gif",
+    "gifs/gnomo/gnomo/caminar/N.gif",
+    "gifs/gnomo/gnomo/caminar/NW.gif",
+    "gifs/gnomo/gnomo/caminar/W.gif",
+    "gifs/gnomo/gnomo/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/gnomo/gnomo/caminar_lpc/S.gif",
+    "gifs/gnomo/gnomo/caminar_lpc/SE.gif",
+    "gifs/gnomo/gnomo/caminar_lpc/E.gif",
+    "gifs/gnomo/gnomo/caminar_lpc/NE.gif",
+    "gifs/gnomo/gnomo/caminar_lpc/N.gif",
+    "gifs/gnomo/gnomo/caminar_lpc/NW.gif",
+    "gifs/gnomo/gnomo/caminar_lpc/W.gif",
+    "gifs/gnomo/gnomo/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/gnomo/gnomo/combo/S.gif",
+    "gifs/gnomo/gnomo/combo/SE.gif",
+    "gifs/gnomo/gnomo/combo/E.gif",
+    "gifs/gnomo/gnomo/combo/NE.gif",
+    "gifs/gnomo/gnomo/combo/N.gif",
+    "gifs/gnomo/gnomo/combo/NW.gif",
+    "gifs/gnomo/gnomo/combo/W.gif",
+    "gifs/gnomo/gnomo/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/gnomo/gnomo/correr/S.gif",
+    "gifs/gnomo/gnomo/correr/SE.gif",
+    "gifs/gnomo/gnomo/correr/E.gif",
+    "gifs/gnomo/gnomo/correr/NE.gif",
+    "gifs/gnomo/gnomo/correr/N.gif",
+    "gifs/gnomo/gnomo/correr/NW.gif",
+    "gifs/gnomo/gnomo/correr/W.gif",
+    "gifs/gnomo/gnomo/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/gnomo/gnomo/desenvainar/S.gif",
+    "gifs/gnomo/gnomo/desenvainar/SE.gif",
+    "gifs/gnomo/gnomo/desenvainar/E.gif",
+    "gifs/gnomo/gnomo/desenvainar/NE.gif",
+    "gifs/gnomo/gnomo/desenvainar/N.gif",
+    "gifs/gnomo/gnomo/desenvainar/NW.gif",
+    "gifs/gnomo/gnomo/desenvainar/W.gif",
+    "gifs/gnomo/gnomo/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/gnomo/gnomo/golpear/S.gif",
+    "gifs/gnomo/gnomo/golpear/SE.gif",
+    "gifs/gnomo/gnomo/golpear/E.gif",
+    "gifs/gnomo/gnomo/golpear/NE.gif",
+    "gifs/gnomo/gnomo/golpear/N.gif",
+    "gifs/gnomo/gnomo/golpear/NW.gif",
+    "gifs/gnomo/gnomo/golpear/W.gif",
+    "gifs/gnomo/gnomo/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/gnomo/gnomo/neutra/S.gif",
+    "gifs/gnomo/gnomo/neutra/SE.gif",
+    "gifs/gnomo/gnomo/neutra/E.gif",
+    "gifs/gnomo/gnomo/neutra/NE.gif",
+    "gifs/gnomo/gnomo/neutra/N.gif",
+    "gifs/gnomo/gnomo/neutra/NW.gif",
+    "gifs/gnomo/gnomo/neutra/W.gif",
+    "gifs/gnomo/gnomo/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/gnomo/gnomo/quieto/S.gif",
+    "gifs/gnomo/gnomo/quieto/SE.gif",
+    "gifs/gnomo/gnomo/quieto/E.gif",
+    "gifs/gnomo/gnomo/quieto/NE.gif",
+    "gifs/gnomo/gnomo/quieto/N.gif",
+    "gifs/gnomo/gnomo/quieto/NW.gif",
+    "gifs/gnomo/gnomo/quieto/W.gif",
+    "gifs/gnomo/gnomo/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/gnomo/gnomo/saltar/S.gif",
+    "gifs/gnomo/gnomo/saltar/SE.gif",
+    "gifs/gnomo/gnomo/saltar/E.gif",
+    "gifs/gnomo/gnomo/saltar/NE.gif",
+    "gifs/gnomo/gnomo/saltar/N.gif",
+    "gifs/gnomo/gnomo/saltar/NW.gif",
+    "gifs/gnomo/gnomo/saltar/W.gif",
+    "gifs/gnomo/gnomo/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "goblin",
+  "criatura": "goblin",
+  "skin": "goblin",
+  "portada": "gifs/goblin/goblin.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/goblin/goblin/agachar/S.gif",
+    "gifs/goblin/goblin/agachar/SE.gif",
+    "gifs/goblin/goblin/agachar/E.gif",
+    "gifs/goblin/goblin/agachar/NE.gif",
+    "gifs/goblin/goblin/agachar/N.gif",
+    "gifs/goblin/goblin/agachar/NW.gif",
+    "gifs/goblin/goblin/agachar/W.gif",
+    "gifs/goblin/goblin/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/goblin/goblin/blandir/S.gif",
+    "gifs/goblin/goblin/blandir/SE.gif",
+    "gifs/goblin/goblin/blandir/E.gif",
+    "gifs/goblin/goblin/blandir/NE.gif",
+    "gifs/goblin/goblin/blandir/N.gif",
+    "gifs/goblin/goblin/blandir/NW.gif",
+    "gifs/goblin/goblin/blandir/W.gif",
+    "gifs/goblin/goblin/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/goblin/goblin/caminar/S.gif",
+    "gifs/goblin/goblin/caminar/SE.gif",
+    "gifs/goblin/goblin/caminar/E.gif",
+    "gifs/goblin/goblin/caminar/NE.gif",
+    "gifs/goblin/goblin/caminar/N.gif",
+    "gifs/goblin/goblin/caminar/NW.gif",
+    "gifs/goblin/goblin/caminar/W.gif",
+    "gifs/goblin/goblin/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/goblin/goblin/caminar_lpc/S.gif",
+    "gifs/goblin/goblin/caminar_lpc/SE.gif",
+    "gifs/goblin/goblin/caminar_lpc/E.gif",
+    "gifs/goblin/goblin/caminar_lpc/NE.gif",
+    "gifs/goblin/goblin/caminar_lpc/N.gif",
+    "gifs/goblin/goblin/caminar_lpc/NW.gif",
+    "gifs/goblin/goblin/caminar_lpc/W.gif",
+    "gifs/goblin/goblin/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/goblin/goblin/combo/S.gif",
+    "gifs/goblin/goblin/combo/SE.gif",
+    "gifs/goblin/goblin/combo/E.gif",
+    "gifs/goblin/goblin/combo/NE.gif",
+    "gifs/goblin/goblin/combo/N.gif",
+    "gifs/goblin/goblin/combo/NW.gif",
+    "gifs/goblin/goblin/combo/W.gif",
+    "gifs/goblin/goblin/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/goblin/goblin/correr/S.gif",
+    "gifs/goblin/goblin/correr/SE.gif",
+    "gifs/goblin/goblin/correr/E.gif",
+    "gifs/goblin/goblin/correr/NE.gif",
+    "gifs/goblin/goblin/correr/N.gif",
+    "gifs/goblin/goblin/correr/NW.gif",
+    "gifs/goblin/goblin/correr/W.gif",
+    "gifs/goblin/goblin/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/goblin/goblin/desenvainar/S.gif",
+    "gifs/goblin/goblin/desenvainar/SE.gif",
+    "gifs/goblin/goblin/desenvainar/E.gif",
+    "gifs/goblin/goblin/desenvainar/NE.gif",
+    "gifs/goblin/goblin/desenvainar/N.gif",
+    "gifs/goblin/goblin/desenvainar/NW.gif",
+    "gifs/goblin/goblin/desenvainar/W.gif",
+    "gifs/goblin/goblin/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/goblin/goblin/golpear/S.gif",
+    "gifs/goblin/goblin/golpear/SE.gif",
+    "gifs/goblin/goblin/golpear/E.gif",
+    "gifs/goblin/goblin/golpear/NE.gif",
+    "gifs/goblin/goblin/golpear/N.gif",
+    "gifs/goblin/goblin/golpear/NW.gif",
+    "gifs/goblin/goblin/golpear/W.gif",
+    "gifs/goblin/goblin/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/goblin/goblin/neutra/S.gif",
+    "gifs/goblin/goblin/neutra/SE.gif",
+    "gifs/goblin/goblin/neutra/E.gif",
+    "gifs/goblin/goblin/neutra/NE.gif",
+    "gifs/goblin/goblin/neutra/N.gif",
+    "gifs/goblin/goblin/neutra/NW.gif",
+    "gifs/goblin/goblin/neutra/W.gif",
+    "gifs/goblin/goblin/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/goblin/goblin/quieto/S.gif",
+    "gifs/goblin/goblin/quieto/SE.gif",
+    "gifs/goblin/goblin/quieto/E.gif",
+    "gifs/goblin/goblin/quieto/NE.gif",
+    "gifs/goblin/goblin/quieto/N.gif",
+    "gifs/goblin/goblin/quieto/NW.gif",
+    "gifs/goblin/goblin/quieto/W.gif",
+    "gifs/goblin/goblin/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/goblin/goblin/saltar/S.gif",
+    "gifs/goblin/goblin/saltar/SE.gif",
+    "gifs/goblin/goblin/saltar/E.gif",
+    "gifs/goblin/goblin/saltar/NE.gif",
+    "gifs/goblin/goblin/saltar/N.gif",
+    "gifs/goblin/goblin/saltar/NW.gif",
+    "gifs/goblin/goblin/saltar/W.gif",
+    "gifs/goblin/goblin/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "golem_arenisca",
+  "criatura": "golem",
+  "skin": "golem_arenisca",
+  "portada": "gifs/golem/golem_arenisca.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/golem/golem_arenisca/agachar/S.gif",
+    "gifs/golem/golem_arenisca/agachar/SE.gif",
+    "gifs/golem/golem_arenisca/agachar/E.gif",
+    "gifs/golem/golem_arenisca/agachar/NE.gif",
+    "gifs/golem/golem_arenisca/agachar/N.gif",
+    "gifs/golem/golem_arenisca/agachar/NW.gif",
+    "gifs/golem/golem_arenisca/agachar/W.gif",
+    "gifs/golem/golem_arenisca/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/golem/golem_arenisca/blandir/S.gif",
+    "gifs/golem/golem_arenisca/blandir/SE.gif",
+    "gifs/golem/golem_arenisca/blandir/E.gif",
+    "gifs/golem/golem_arenisca/blandir/NE.gif",
+    "gifs/golem/golem_arenisca/blandir/N.gif",
+    "gifs/golem/golem_arenisca/blandir/NW.gif",
+    "gifs/golem/golem_arenisca/blandir/W.gif",
+    "gifs/golem/golem_arenisca/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/golem/golem_arenisca/caminar/S.gif",
+    "gifs/golem/golem_arenisca/caminar/SE.gif",
+    "gifs/golem/golem_arenisca/caminar/E.gif",
+    "gifs/golem/golem_arenisca/caminar/NE.gif",
+    "gifs/golem/golem_arenisca/caminar/N.gif",
+    "gifs/golem/golem_arenisca/caminar/NW.gif",
+    "gifs/golem/golem_arenisca/caminar/W.gif",
+    "gifs/golem/golem_arenisca/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/golem/golem_arenisca/caminar_lpc/S.gif",
+    "gifs/golem/golem_arenisca/caminar_lpc/SE.gif",
+    "gifs/golem/golem_arenisca/caminar_lpc/E.gif",
+    "gifs/golem/golem_arenisca/caminar_lpc/NE.gif",
+    "gifs/golem/golem_arenisca/caminar_lpc/N.gif",
+    "gifs/golem/golem_arenisca/caminar_lpc/NW.gif",
+    "gifs/golem/golem_arenisca/caminar_lpc/W.gif",
+    "gifs/golem/golem_arenisca/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/golem/golem_arenisca/combo/S.gif",
+    "gifs/golem/golem_arenisca/combo/SE.gif",
+    "gifs/golem/golem_arenisca/combo/E.gif",
+    "gifs/golem/golem_arenisca/combo/NE.gif",
+    "gifs/golem/golem_arenisca/combo/N.gif",
+    "gifs/golem/golem_arenisca/combo/NW.gif",
+    "gifs/golem/golem_arenisca/combo/W.gif",
+    "gifs/golem/golem_arenisca/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/golem/golem_arenisca/correr/S.gif",
+    "gifs/golem/golem_arenisca/correr/SE.gif",
+    "gifs/golem/golem_arenisca/correr/E.gif",
+    "gifs/golem/golem_arenisca/correr/NE.gif",
+    "gifs/golem/golem_arenisca/correr/N.gif",
+    "gifs/golem/golem_arenisca/correr/NW.gif",
+    "gifs/golem/golem_arenisca/correr/W.gif",
+    "gifs/golem/golem_arenisca/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/golem/golem_arenisca/desenvainar/S.gif",
+    "gifs/golem/golem_arenisca/desenvainar/SE.gif",
+    "gifs/golem/golem_arenisca/desenvainar/E.gif",
+    "gifs/golem/golem_arenisca/desenvainar/NE.gif",
+    "gifs/golem/golem_arenisca/desenvainar/N.gif",
+    "gifs/golem/golem_arenisca/desenvainar/NW.gif",
+    "gifs/golem/golem_arenisca/desenvainar/W.gif",
+    "gifs/golem/golem_arenisca/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/golem/golem_arenisca/golpear/S.gif",
+    "gifs/golem/golem_arenisca/golpear/SE.gif",
+    "gifs/golem/golem_arenisca/golpear/E.gif",
+    "gifs/golem/golem_arenisca/golpear/NE.gif",
+    "gifs/golem/golem_arenisca/golpear/N.gif",
+    "gifs/golem/golem_arenisca/golpear/NW.gif",
+    "gifs/golem/golem_arenisca/golpear/W.gif",
+    "gifs/golem/golem_arenisca/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/golem/golem_arenisca/neutra/S.gif",
+    "gifs/golem/golem_arenisca/neutra/SE.gif",
+    "gifs/golem/golem_arenisca/neutra/E.gif",
+    "gifs/golem/golem_arenisca/neutra/NE.gif",
+    "gifs/golem/golem_arenisca/neutra/N.gif",
+    "gifs/golem/golem_arenisca/neutra/NW.gif",
+    "gifs/golem/golem_arenisca/neutra/W.gif",
+    "gifs/golem/golem_arenisca/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/golem/golem_arenisca/quieto/S.gif",
+    "gifs/golem/golem_arenisca/quieto/SE.gif",
+    "gifs/golem/golem_arenisca/quieto/E.gif",
+    "gifs/golem/golem_arenisca/quieto/NE.gif",
+    "gifs/golem/golem_arenisca/quieto/N.gif",
+    "gifs/golem/golem_arenisca/quieto/NW.gif",
+    "gifs/golem/golem_arenisca/quieto/W.gif",
+    "gifs/golem/golem_arenisca/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/golem/golem_arenisca/saltar/S.gif",
+    "gifs/golem/golem_arenisca/saltar/SE.gif",
+    "gifs/golem/golem_arenisca/saltar/E.gif",
+    "gifs/golem/golem_arenisca/saltar/NE.gif",
+    "gifs/golem/golem_arenisca/saltar/N.gif",
+    "gifs/golem/golem_arenisca/saltar/NW.gif",
+    "gifs/golem/golem_arenisca/saltar/W.gif",
+    "gifs/golem/golem_arenisca/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "golem_basalto",
+  "criatura": "golem",
+  "skin": "golem_basalto",
+  "portada": "gifs/golem/golem_basalto.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/golem/golem_basalto/agachar/S.gif",
+    "gifs/golem/golem_basalto/agachar/SE.gif",
+    "gifs/golem/golem_basalto/agachar/E.gif",
+    "gifs/golem/golem_basalto/agachar/NE.gif",
+    "gifs/golem/golem_basalto/agachar/N.gif",
+    "gifs/golem/golem_basalto/agachar/NW.gif",
+    "gifs/golem/golem_basalto/agachar/W.gif",
+    "gifs/golem/golem_basalto/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/golem/golem_basalto/blandir/S.gif",
+    "gifs/golem/golem_basalto/blandir/SE.gif",
+    "gifs/golem/golem_basalto/blandir/E.gif",
+    "gifs/golem/golem_basalto/blandir/NE.gif",
+    "gifs/golem/golem_basalto/blandir/N.gif",
+    "gifs/golem/golem_basalto/blandir/NW.gif",
+    "gifs/golem/golem_basalto/blandir/W.gif",
+    "gifs/golem/golem_basalto/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/golem/golem_basalto/caminar/S.gif",
+    "gifs/golem/golem_basalto/caminar/SE.gif",
+    "gifs/golem/golem_basalto/caminar/E.gif",
+    "gifs/golem/golem_basalto/caminar/NE.gif",
+    "gifs/golem/golem_basalto/caminar/N.gif",
+    "gifs/golem/golem_basalto/caminar/NW.gif",
+    "gifs/golem/golem_basalto/caminar/W.gif",
+    "gifs/golem/golem_basalto/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/golem/golem_basalto/caminar_lpc/S.gif",
+    "gifs/golem/golem_basalto/caminar_lpc/SE.gif",
+    "gifs/golem/golem_basalto/caminar_lpc/E.gif",
+    "gifs/golem/golem_basalto/caminar_lpc/NE.gif",
+    "gifs/golem/golem_basalto/caminar_lpc/N.gif",
+    "gifs/golem/golem_basalto/caminar_lpc/NW.gif",
+    "gifs/golem/golem_basalto/caminar_lpc/W.gif",
+    "gifs/golem/golem_basalto/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/golem/golem_basalto/combo/S.gif",
+    "gifs/golem/golem_basalto/combo/SE.gif",
+    "gifs/golem/golem_basalto/combo/E.gif",
+    "gifs/golem/golem_basalto/combo/NE.gif",
+    "gifs/golem/golem_basalto/combo/N.gif",
+    "gifs/golem/golem_basalto/combo/NW.gif",
+    "gifs/golem/golem_basalto/combo/W.gif",
+    "gifs/golem/golem_basalto/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/golem/golem_basalto/correr/S.gif",
+    "gifs/golem/golem_basalto/correr/SE.gif",
+    "gifs/golem/golem_basalto/correr/E.gif",
+    "gifs/golem/golem_basalto/correr/NE.gif",
+    "gifs/golem/golem_basalto/correr/N.gif",
+    "gifs/golem/golem_basalto/correr/NW.gif",
+    "gifs/golem/golem_basalto/correr/W.gif",
+    "gifs/golem/golem_basalto/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/golem/golem_basalto/desenvainar/S.gif",
+    "gifs/golem/golem_basalto/desenvainar/SE.gif",
+    "gifs/golem/golem_basalto/desenvainar/E.gif",
+    "gifs/golem/golem_basalto/desenvainar/NE.gif",
+    "gifs/golem/golem_basalto/desenvainar/N.gif",
+    "gifs/golem/golem_basalto/desenvainar/NW.gif",
+    "gifs/golem/golem_basalto/desenvainar/W.gif",
+    "gifs/golem/golem_basalto/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/golem/golem_basalto/golpear/S.gif",
+    "gifs/golem/golem_basalto/golpear/SE.gif",
+    "gifs/golem/golem_basalto/golpear/E.gif",
+    "gifs/golem/golem_basalto/golpear/NE.gif",
+    "gifs/golem/golem_basalto/golpear/N.gif",
+    "gifs/golem/golem_basalto/golpear/NW.gif",
+    "gifs/golem/golem_basalto/golpear/W.gif",
+    "gifs/golem/golem_basalto/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/golem/golem_basalto/neutra/S.gif",
+    "gifs/golem/golem_basalto/neutra/SE.gif",
+    "gifs/golem/golem_basalto/neutra/E.gif",
+    "gifs/golem/golem_basalto/neutra/NE.gif",
+    "gifs/golem/golem_basalto/neutra/N.gif",
+    "gifs/golem/golem_basalto/neutra/NW.gif",
+    "gifs/golem/golem_basalto/neutra/W.gif",
+    "gifs/golem/golem_basalto/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/golem/golem_basalto/quieto/S.gif",
+    "gifs/golem/golem_basalto/quieto/SE.gif",
+    "gifs/golem/golem_basalto/quieto/E.gif",
+    "gifs/golem/golem_basalto/quieto/NE.gif",
+    "gifs/golem/golem_basalto/quieto/N.gif",
+    "gifs/golem/golem_basalto/quieto/NW.gif",
+    "gifs/golem/golem_basalto/quieto/W.gif",
+    "gifs/golem/golem_basalto/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/golem/golem_basalto/saltar/S.gif",
+    "gifs/golem/golem_basalto/saltar/SE.gif",
+    "gifs/golem/golem_basalto/saltar/E.gif",
+    "gifs/golem/golem_basalto/saltar/NE.gif",
+    "gifs/golem/golem_basalto/saltar/N.gif",
+    "gifs/golem/golem_basalto/saltar/NW.gif",
+    "gifs/golem/golem_basalto/saltar/W.gif",
+    "gifs/golem/golem_basalto/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "golem_piedra",
+  "criatura": "golem",
+  "skin": "golem_piedra",
+  "portada": "gifs/golem/golem_piedra.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/golem/golem_piedra/agachar/S.gif",
+    "gifs/golem/golem_piedra/agachar/SE.gif",
+    "gifs/golem/golem_piedra/agachar/E.gif",
+    "gifs/golem/golem_piedra/agachar/NE.gif",
+    "gifs/golem/golem_piedra/agachar/N.gif",
+    "gifs/golem/golem_piedra/agachar/NW.gif",
+    "gifs/golem/golem_piedra/agachar/W.gif",
+    "gifs/golem/golem_piedra/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/golem/golem_piedra/blandir/S.gif",
+    "gifs/golem/golem_piedra/blandir/SE.gif",
+    "gifs/golem/golem_piedra/blandir/E.gif",
+    "gifs/golem/golem_piedra/blandir/NE.gif",
+    "gifs/golem/golem_piedra/blandir/N.gif",
+    "gifs/golem/golem_piedra/blandir/NW.gif",
+    "gifs/golem/golem_piedra/blandir/W.gif",
+    "gifs/golem/golem_piedra/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/golem/golem_piedra/caminar/S.gif",
+    "gifs/golem/golem_piedra/caminar/SE.gif",
+    "gifs/golem/golem_piedra/caminar/E.gif",
+    "gifs/golem/golem_piedra/caminar/NE.gif",
+    "gifs/golem/golem_piedra/caminar/N.gif",
+    "gifs/golem/golem_piedra/caminar/NW.gif",
+    "gifs/golem/golem_piedra/caminar/W.gif",
+    "gifs/golem/golem_piedra/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/golem/golem_piedra/caminar_lpc/S.gif",
+    "gifs/golem/golem_piedra/caminar_lpc/SE.gif",
+    "gifs/golem/golem_piedra/caminar_lpc/E.gif",
+    "gifs/golem/golem_piedra/caminar_lpc/NE.gif",
+    "gifs/golem/golem_piedra/caminar_lpc/N.gif",
+    "gifs/golem/golem_piedra/caminar_lpc/NW.gif",
+    "gifs/golem/golem_piedra/caminar_lpc/W.gif",
+    "gifs/golem/golem_piedra/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/golem/golem_piedra/combo/S.gif",
+    "gifs/golem/golem_piedra/combo/SE.gif",
+    "gifs/golem/golem_piedra/combo/E.gif",
+    "gifs/golem/golem_piedra/combo/NE.gif",
+    "gifs/golem/golem_piedra/combo/N.gif",
+    "gifs/golem/golem_piedra/combo/NW.gif",
+    "gifs/golem/golem_piedra/combo/W.gif",
+    "gifs/golem/golem_piedra/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/golem/golem_piedra/correr/S.gif",
+    "gifs/golem/golem_piedra/correr/SE.gif",
+    "gifs/golem/golem_piedra/correr/E.gif",
+    "gifs/golem/golem_piedra/correr/NE.gif",
+    "gifs/golem/golem_piedra/correr/N.gif",
+    "gifs/golem/golem_piedra/correr/NW.gif",
+    "gifs/golem/golem_piedra/correr/W.gif",
+    "gifs/golem/golem_piedra/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/golem/golem_piedra/desenvainar/S.gif",
+    "gifs/golem/golem_piedra/desenvainar/SE.gif",
+    "gifs/golem/golem_piedra/desenvainar/E.gif",
+    "gifs/golem/golem_piedra/desenvainar/NE.gif",
+    "gifs/golem/golem_piedra/desenvainar/N.gif",
+    "gifs/golem/golem_piedra/desenvainar/NW.gif",
+    "gifs/golem/golem_piedra/desenvainar/W.gif",
+    "gifs/golem/golem_piedra/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/golem/golem_piedra/golpear/S.gif",
+    "gifs/golem/golem_piedra/golpear/SE.gif",
+    "gifs/golem/golem_piedra/golpear/E.gif",
+    "gifs/golem/golem_piedra/golpear/NE.gif",
+    "gifs/golem/golem_piedra/golpear/N.gif",
+    "gifs/golem/golem_piedra/golpear/NW.gif",
+    "gifs/golem/golem_piedra/golpear/W.gif",
+    "gifs/golem/golem_piedra/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/golem/golem_piedra/neutra/S.gif",
+    "gifs/golem/golem_piedra/neutra/SE.gif",
+    "gifs/golem/golem_piedra/neutra/E.gif",
+    "gifs/golem/golem_piedra/neutra/NE.gif",
+    "gifs/golem/golem_piedra/neutra/N.gif",
+    "gifs/golem/golem_piedra/neutra/NW.gif",
+    "gifs/golem/golem_piedra/neutra/W.gif",
+    "gifs/golem/golem_piedra/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/golem/golem_piedra/quieto/S.gif",
+    "gifs/golem/golem_piedra/quieto/SE.gif",
+    "gifs/golem/golem_piedra/quieto/E.gif",
+    "gifs/golem/golem_piedra/quieto/NE.gif",
+    "gifs/golem/golem_piedra/quieto/N.gif",
+    "gifs/golem/golem_piedra/quieto/NW.gif",
+    "gifs/golem/golem_piedra/quieto/W.gif",
+    "gifs/golem/golem_piedra/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/golem/golem_piedra/saltar/S.gif",
+    "gifs/golem/golem_piedra/saltar/SE.gif",
+    "gifs/golem/golem_piedra/saltar/E.gif",
+    "gifs/golem/golem_piedra/saltar/NE.gif",
+    "gifs/golem/golem_piedra/saltar/N.gif",
+    "gifs/golem/golem_piedra/saltar/NW.gif",
+    "gifs/golem/golem_piedra/saltar/W.gif",
+    "gifs/golem/golem_piedra/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "hechicera",
+  "criatura": "humano",
+  "skin": "hechicera_hielo",
+  "portada": "gifs/humano/hechicera.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/humano/hechicera/agachar/S.gif",
+    "gifs/humano/hechicera/agachar/SE.gif",
+    "gifs/humano/hechicera/agachar/E.gif",
+    "gifs/humano/hechicera/agachar/NE.gif",
+    "gifs/humano/hechicera/agachar/N.gif",
+    "gifs/humano/hechicera/agachar/NW.gif",
+    "gifs/humano/hechicera/agachar/W.gif",
+    "gifs/humano/hechicera/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/humano/hechicera/blandir/S.gif",
+    "gifs/humano/hechicera/blandir/SE.gif",
+    "gifs/humano/hechicera/blandir/E.gif",
+    "gifs/humano/hechicera/blandir/NE.gif",
+    "gifs/humano/hechicera/blandir/N.gif",
+    "gifs/humano/hechicera/blandir/NW.gif",
+    "gifs/humano/hechicera/blandir/W.gif",
+    "gifs/humano/hechicera/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/humano/hechicera/caminar/S.gif",
+    "gifs/humano/hechicera/caminar/SE.gif",
+    "gifs/humano/hechicera/caminar/E.gif",
+    "gifs/humano/hechicera/caminar/NE.gif",
+    "gifs/humano/hechicera/caminar/N.gif",
+    "gifs/humano/hechicera/caminar/NW.gif",
+    "gifs/humano/hechicera/caminar/W.gif",
+    "gifs/humano/hechicera/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/humano/hechicera/caminar_lpc/S.gif",
+    "gifs/humano/hechicera/caminar_lpc/SE.gif",
+    "gifs/humano/hechicera/caminar_lpc/E.gif",
+    "gifs/humano/hechicera/caminar_lpc/NE.gif",
+    "gifs/humano/hechicera/caminar_lpc/N.gif",
+    "gifs/humano/hechicera/caminar_lpc/NW.gif",
+    "gifs/humano/hechicera/caminar_lpc/W.gif",
+    "gifs/humano/hechicera/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/humano/hechicera/combo/S.gif",
+    "gifs/humano/hechicera/combo/SE.gif",
+    "gifs/humano/hechicera/combo/E.gif",
+    "gifs/humano/hechicera/combo/NE.gif",
+    "gifs/humano/hechicera/combo/N.gif",
+    "gifs/humano/hechicera/combo/NW.gif",
+    "gifs/humano/hechicera/combo/W.gif",
+    "gifs/humano/hechicera/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/humano/hechicera/correr/S.gif",
+    "gifs/humano/hechicera/correr/SE.gif",
+    "gifs/humano/hechicera/correr/E.gif",
+    "gifs/humano/hechicera/correr/NE.gif",
+    "gifs/humano/hechicera/correr/N.gif",
+    "gifs/humano/hechicera/correr/NW.gif",
+    "gifs/humano/hechicera/correr/W.gif",
+    "gifs/humano/hechicera/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/humano/hechicera/desenvainar/S.gif",
+    "gifs/humano/hechicera/desenvainar/SE.gif",
+    "gifs/humano/hechicera/desenvainar/E.gif",
+    "gifs/humano/hechicera/desenvainar/NE.gif",
+    "gifs/humano/hechicera/desenvainar/N.gif",
+    "gifs/humano/hechicera/desenvainar/NW.gif",
+    "gifs/humano/hechicera/desenvainar/W.gif",
+    "gifs/humano/hechicera/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/humano/hechicera/golpear/S.gif",
+    "gifs/humano/hechicera/golpear/SE.gif",
+    "gifs/humano/hechicera/golpear/E.gif",
+    "gifs/humano/hechicera/golpear/NE.gif",
+    "gifs/humano/hechicera/golpear/N.gif",
+    "gifs/humano/hechicera/golpear/NW.gif",
+    "gifs/humano/hechicera/golpear/W.gif",
+    "gifs/humano/hechicera/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/humano/hechicera/neutra/S.gif",
+    "gifs/humano/hechicera/neutra/SE.gif",
+    "gifs/humano/hechicera/neutra/E.gif",
+    "gifs/humano/hechicera/neutra/NE.gif",
+    "gifs/humano/hechicera/neutra/N.gif",
+    "gifs/humano/hechicera/neutra/NW.gif",
+    "gifs/humano/hechicera/neutra/W.gif",
+    "gifs/humano/hechicera/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/humano/hechicera/quieto/S.gif",
+    "gifs/humano/hechicera/quieto/SE.gif",
+    "gifs/humano/hechicera/quieto/E.gif",
+    "gifs/humano/hechicera/quieto/NE.gif",
+    "gifs/humano/hechicera/quieto/N.gif",
+    "gifs/humano/hechicera/quieto/NW.gif",
+    "gifs/humano/hechicera/quieto/W.gif",
+    "gifs/humano/hechicera/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/humano/hechicera/saltar/S.gif",
+    "gifs/humano/hechicera/saltar/SE.gif",
+    "gifs/humano/hechicera/saltar/E.gif",
+    "gifs/humano/hechicera/saltar/NE.gif",
+    "gifs/humano/hechicera/saltar/N.gif",
+    "gifs/humano/hechicera/saltar/NW.gif",
+    "gifs/humano/hechicera/saltar/W.gif",
+    "gifs/humano/hechicera/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "humanoide",
+  "criatura": "humanoide",
+  "skin": "caballero_carmesi",
+  "portada": "gifs/humanoide/humanoide.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/humanoide/humanoide/agachar/S.gif",
+    "gifs/humanoide/humanoide/agachar/SE.gif",
+    "gifs/humanoide/humanoide/agachar/E.gif",
+    "gifs/humanoide/humanoide/agachar/NE.gif",
+    "gifs/humanoide/humanoide/agachar/N.gif",
+    "gifs/humanoide/humanoide/agachar/NW.gif",
+    "gifs/humanoide/humanoide/agachar/W.gif",
+    "gifs/humanoide/humanoide/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/humanoide/humanoide/blandir/S.gif",
+    "gifs/humanoide/humanoide/blandir/SE.gif",
+    "gifs/humanoide/humanoide/blandir/E.gif",
+    "gifs/humanoide/humanoide/blandir/NE.gif",
+    "gifs/humanoide/humanoide/blandir/N.gif",
+    "gifs/humanoide/humanoide/blandir/NW.gif",
+    "gifs/humanoide/humanoide/blandir/W.gif",
+    "gifs/humanoide/humanoide/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/humanoide/humanoide/caminar/S.gif",
+    "gifs/humanoide/humanoide/caminar/SE.gif",
+    "gifs/humanoide/humanoide/caminar/E.gif",
+    "gifs/humanoide/humanoide/caminar/NE.gif",
+    "gifs/humanoide/humanoide/caminar/N.gif",
+    "gifs/humanoide/humanoide/caminar/NW.gif",
+    "gifs/humanoide/humanoide/caminar/W.gif",
+    "gifs/humanoide/humanoide/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/humanoide/humanoide/caminar_lpc/S.gif",
+    "gifs/humanoide/humanoide/caminar_lpc/SE.gif",
+    "gifs/humanoide/humanoide/caminar_lpc/E.gif",
+    "gifs/humanoide/humanoide/caminar_lpc/NE.gif",
+    "gifs/humanoide/humanoide/caminar_lpc/N.gif",
+    "gifs/humanoide/humanoide/caminar_lpc/NW.gif",
+    "gifs/humanoide/humanoide/caminar_lpc/W.gif",
+    "gifs/humanoide/humanoide/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/humanoide/humanoide/combo/S.gif",
+    "gifs/humanoide/humanoide/combo/SE.gif",
+    "gifs/humanoide/humanoide/combo/E.gif",
+    "gifs/humanoide/humanoide/combo/NE.gif",
+    "gifs/humanoide/humanoide/combo/N.gif",
+    "gifs/humanoide/humanoide/combo/NW.gif",
+    "gifs/humanoide/humanoide/combo/W.gif",
+    "gifs/humanoide/humanoide/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/humanoide/humanoide/correr/S.gif",
+    "gifs/humanoide/humanoide/correr/SE.gif",
+    "gifs/humanoide/humanoide/correr/E.gif",
+    "gifs/humanoide/humanoide/correr/NE.gif",
+    "gifs/humanoide/humanoide/correr/N.gif",
+    "gifs/humanoide/humanoide/correr/NW.gif",
+    "gifs/humanoide/humanoide/correr/W.gif",
+    "gifs/humanoide/humanoide/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/humanoide/humanoide/desenvainar/S.gif",
+    "gifs/humanoide/humanoide/desenvainar/SE.gif",
+    "gifs/humanoide/humanoide/desenvainar/E.gif",
+    "gifs/humanoide/humanoide/desenvainar/NE.gif",
+    "gifs/humanoide/humanoide/desenvainar/N.gif",
+    "gifs/humanoide/humanoide/desenvainar/NW.gif",
+    "gifs/humanoide/humanoide/desenvainar/W.gif",
+    "gifs/humanoide/humanoide/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/humanoide/humanoide/golpear/S.gif",
+    "gifs/humanoide/humanoide/golpear/SE.gif",
+    "gifs/humanoide/humanoide/golpear/E.gif",
+    "gifs/humanoide/humanoide/golpear/NE.gif",
+    "gifs/humanoide/humanoide/golpear/N.gif",
+    "gifs/humanoide/humanoide/golpear/NW.gif",
+    "gifs/humanoide/humanoide/golpear/W.gif",
+    "gifs/humanoide/humanoide/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/humanoide/humanoide/neutra/S.gif",
+    "gifs/humanoide/humanoide/neutra/SE.gif",
+    "gifs/humanoide/humanoide/neutra/E.gif",
+    "gifs/humanoide/humanoide/neutra/NE.gif",
+    "gifs/humanoide/humanoide/neutra/N.gif",
+    "gifs/humanoide/humanoide/neutra/NW.gif",
+    "gifs/humanoide/humanoide/neutra/W.gif",
+    "gifs/humanoide/humanoide/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/humanoide/humanoide/quieto/S.gif",
+    "gifs/humanoide/humanoide/quieto/SE.gif",
+    "gifs/humanoide/humanoide/quieto/E.gif",
+    "gifs/humanoide/humanoide/quieto/NE.gif",
+    "gifs/humanoide/humanoide/quieto/N.gif",
+    "gifs/humanoide/humanoide/quieto/NW.gif",
+    "gifs/humanoide/humanoide/quieto/W.gif",
+    "gifs/humanoide/humanoide/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/humanoide/humanoide/saltar/S.gif",
+    "gifs/humanoide/humanoide/saltar/SE.gif",
+    "gifs/humanoide/humanoide/saltar/E.gif",
+    "gifs/humanoide/humanoide/saltar/NE.gif",
+    "gifs/humanoide/humanoide/saltar/N.gif",
+    "gifs/humanoide/humanoide/saltar/NW.gif",
+    "gifs/humanoide/humanoide/saltar/W.gif",
+    "gifs/humanoide/humanoide/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "ogro_gris",
+  "criatura": "ogro",
+  "skin": "ogro_gris",
+  "portada": "gifs/ogro/ogro_gris.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/ogro/ogro_gris/agachar/S.gif",
+    "gifs/ogro/ogro_gris/agachar/SE.gif",
+    "gifs/ogro/ogro_gris/agachar/E.gif",
+    "gifs/ogro/ogro_gris/agachar/NE.gif",
+    "gifs/ogro/ogro_gris/agachar/N.gif",
+    "gifs/ogro/ogro_gris/agachar/NW.gif",
+    "gifs/ogro/ogro_gris/agachar/W.gif",
+    "gifs/ogro/ogro_gris/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/ogro/ogro_gris/blandir/S.gif",
+    "gifs/ogro/ogro_gris/blandir/SE.gif",
+    "gifs/ogro/ogro_gris/blandir/E.gif",
+    "gifs/ogro/ogro_gris/blandir/NE.gif",
+    "gifs/ogro/ogro_gris/blandir/N.gif",
+    "gifs/ogro/ogro_gris/blandir/NW.gif",
+    "gifs/ogro/ogro_gris/blandir/W.gif",
+    "gifs/ogro/ogro_gris/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/ogro/ogro_gris/caminar/S.gif",
+    "gifs/ogro/ogro_gris/caminar/SE.gif",
+    "gifs/ogro/ogro_gris/caminar/E.gif",
+    "gifs/ogro/ogro_gris/caminar/NE.gif",
+    "gifs/ogro/ogro_gris/caminar/N.gif",
+    "gifs/ogro/ogro_gris/caminar/NW.gif",
+    "gifs/ogro/ogro_gris/caminar/W.gif",
+    "gifs/ogro/ogro_gris/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/ogro/ogro_gris/caminar_lpc/S.gif",
+    "gifs/ogro/ogro_gris/caminar_lpc/SE.gif",
+    "gifs/ogro/ogro_gris/caminar_lpc/E.gif",
+    "gifs/ogro/ogro_gris/caminar_lpc/NE.gif",
+    "gifs/ogro/ogro_gris/caminar_lpc/N.gif",
+    "gifs/ogro/ogro_gris/caminar_lpc/NW.gif",
+    "gifs/ogro/ogro_gris/caminar_lpc/W.gif",
+    "gifs/ogro/ogro_gris/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/ogro/ogro_gris/combo/S.gif",
+    "gifs/ogro/ogro_gris/combo/SE.gif",
+    "gifs/ogro/ogro_gris/combo/E.gif",
+    "gifs/ogro/ogro_gris/combo/NE.gif",
+    "gifs/ogro/ogro_gris/combo/N.gif",
+    "gifs/ogro/ogro_gris/combo/NW.gif",
+    "gifs/ogro/ogro_gris/combo/W.gif",
+    "gifs/ogro/ogro_gris/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/ogro/ogro_gris/correr/S.gif",
+    "gifs/ogro/ogro_gris/correr/SE.gif",
+    "gifs/ogro/ogro_gris/correr/E.gif",
+    "gifs/ogro/ogro_gris/correr/NE.gif",
+    "gifs/ogro/ogro_gris/correr/N.gif",
+    "gifs/ogro/ogro_gris/correr/NW.gif",
+    "gifs/ogro/ogro_gris/correr/W.gif",
+    "gifs/ogro/ogro_gris/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/ogro/ogro_gris/desenvainar/S.gif",
+    "gifs/ogro/ogro_gris/desenvainar/SE.gif",
+    "gifs/ogro/ogro_gris/desenvainar/E.gif",
+    "gifs/ogro/ogro_gris/desenvainar/NE.gif",
+    "gifs/ogro/ogro_gris/desenvainar/N.gif",
+    "gifs/ogro/ogro_gris/desenvainar/NW.gif",
+    "gifs/ogro/ogro_gris/desenvainar/W.gif",
+    "gifs/ogro/ogro_gris/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/ogro/ogro_gris/golpear/S.gif",
+    "gifs/ogro/ogro_gris/golpear/SE.gif",
+    "gifs/ogro/ogro_gris/golpear/E.gif",
+    "gifs/ogro/ogro_gris/golpear/NE.gif",
+    "gifs/ogro/ogro_gris/golpear/N.gif",
+    "gifs/ogro/ogro_gris/golpear/NW.gif",
+    "gifs/ogro/ogro_gris/golpear/W.gif",
+    "gifs/ogro/ogro_gris/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/ogro/ogro_gris/neutra/S.gif",
+    "gifs/ogro/ogro_gris/neutra/SE.gif",
+    "gifs/ogro/ogro_gris/neutra/E.gif",
+    "gifs/ogro/ogro_gris/neutra/NE.gif",
+    "gifs/ogro/ogro_gris/neutra/N.gif",
+    "gifs/ogro/ogro_gris/neutra/NW.gif",
+    "gifs/ogro/ogro_gris/neutra/W.gif",
+    "gifs/ogro/ogro_gris/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/ogro/ogro_gris/quieto/S.gif",
+    "gifs/ogro/ogro_gris/quieto/SE.gif",
+    "gifs/ogro/ogro_gris/quieto/E.gif",
+    "gifs/ogro/ogro_gris/quieto/NE.gif",
+    "gifs/ogro/ogro_gris/quieto/N.gif",
+    "gifs/ogro/ogro_gris/quieto/NW.gif",
+    "gifs/ogro/ogro_gris/quieto/W.gif",
+    "gifs/ogro/ogro_gris/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/ogro/ogro_gris/saltar/S.gif",
+    "gifs/ogro/ogro_gris/saltar/SE.gif",
+    "gifs/ogro/ogro_gris/saltar/E.gif",
+    "gifs/ogro/ogro_gris/saltar/NE.gif",
+    "gifs/ogro/ogro_gris/saltar/N.gif",
+    "gifs/ogro/ogro_gris/saltar/NW.gif",
+    "gifs/ogro/ogro_gris/saltar/W.gif",
+    "gifs/ogro/ogro_gris/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "ogro_montana",
+  "criatura": "ogro",
+  "skin": "ogro_montana",
+  "portada": "gifs/ogro/ogro_montana.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/ogro/ogro_montana/agachar/S.gif",
+    "gifs/ogro/ogro_montana/agachar/SE.gif",
+    "gifs/ogro/ogro_montana/agachar/E.gif",
+    "gifs/ogro/ogro_montana/agachar/NE.gif",
+    "gifs/ogro/ogro_montana/agachar/N.gif",
+    "gifs/ogro/ogro_montana/agachar/NW.gif",
+    "gifs/ogro/ogro_montana/agachar/W.gif",
+    "gifs/ogro/ogro_montana/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/ogro/ogro_montana/blandir/S.gif",
+    "gifs/ogro/ogro_montana/blandir/SE.gif",
+    "gifs/ogro/ogro_montana/blandir/E.gif",
+    "gifs/ogro/ogro_montana/blandir/NE.gif",
+    "gifs/ogro/ogro_montana/blandir/N.gif",
+    "gifs/ogro/ogro_montana/blandir/NW.gif",
+    "gifs/ogro/ogro_montana/blandir/W.gif",
+    "gifs/ogro/ogro_montana/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/ogro/ogro_montana/caminar/S.gif",
+    "gifs/ogro/ogro_montana/caminar/SE.gif",
+    "gifs/ogro/ogro_montana/caminar/E.gif",
+    "gifs/ogro/ogro_montana/caminar/NE.gif",
+    "gifs/ogro/ogro_montana/caminar/N.gif",
+    "gifs/ogro/ogro_montana/caminar/NW.gif",
+    "gifs/ogro/ogro_montana/caminar/W.gif",
+    "gifs/ogro/ogro_montana/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/ogro/ogro_montana/caminar_lpc/S.gif",
+    "gifs/ogro/ogro_montana/caminar_lpc/SE.gif",
+    "gifs/ogro/ogro_montana/caminar_lpc/E.gif",
+    "gifs/ogro/ogro_montana/caminar_lpc/NE.gif",
+    "gifs/ogro/ogro_montana/caminar_lpc/N.gif",
+    "gifs/ogro/ogro_montana/caminar_lpc/NW.gif",
+    "gifs/ogro/ogro_montana/caminar_lpc/W.gif",
+    "gifs/ogro/ogro_montana/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/ogro/ogro_montana/combo/S.gif",
+    "gifs/ogro/ogro_montana/combo/SE.gif",
+    "gifs/ogro/ogro_montana/combo/E.gif",
+    "gifs/ogro/ogro_montana/combo/NE.gif",
+    "gifs/ogro/ogro_montana/combo/N.gif",
+    "gifs/ogro/ogro_montana/combo/NW.gif",
+    "gifs/ogro/ogro_montana/combo/W.gif",
+    "gifs/ogro/ogro_montana/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/ogro/ogro_montana/correr/S.gif",
+    "gifs/ogro/ogro_montana/correr/SE.gif",
+    "gifs/ogro/ogro_montana/correr/E.gif",
+    "gifs/ogro/ogro_montana/correr/NE.gif",
+    "gifs/ogro/ogro_montana/correr/N.gif",
+    "gifs/ogro/ogro_montana/correr/NW.gif",
+    "gifs/ogro/ogro_montana/correr/W.gif",
+    "gifs/ogro/ogro_montana/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/ogro/ogro_montana/desenvainar/S.gif",
+    "gifs/ogro/ogro_montana/desenvainar/SE.gif",
+    "gifs/ogro/ogro_montana/desenvainar/E.gif",
+    "gifs/ogro/ogro_montana/desenvainar/NE.gif",
+    "gifs/ogro/ogro_montana/desenvainar/N.gif",
+    "gifs/ogro/ogro_montana/desenvainar/NW.gif",
+    "gifs/ogro/ogro_montana/desenvainar/W.gif",
+    "gifs/ogro/ogro_montana/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/ogro/ogro_montana/golpear/S.gif",
+    "gifs/ogro/ogro_montana/golpear/SE.gif",
+    "gifs/ogro/ogro_montana/golpear/E.gif",
+    "gifs/ogro/ogro_montana/golpear/NE.gif",
+    "gifs/ogro/ogro_montana/golpear/N.gif",
+    "gifs/ogro/ogro_montana/golpear/NW.gif",
+    "gifs/ogro/ogro_montana/golpear/W.gif",
+    "gifs/ogro/ogro_montana/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/ogro/ogro_montana/neutra/S.gif",
+    "gifs/ogro/ogro_montana/neutra/SE.gif",
+    "gifs/ogro/ogro_montana/neutra/E.gif",
+    "gifs/ogro/ogro_montana/neutra/NE.gif",
+    "gifs/ogro/ogro_montana/neutra/N.gif",
+    "gifs/ogro/ogro_montana/neutra/NW.gif",
+    "gifs/ogro/ogro_montana/neutra/W.gif",
+    "gifs/ogro/ogro_montana/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/ogro/ogro_montana/quieto/S.gif",
+    "gifs/ogro/ogro_montana/quieto/SE.gif",
+    "gifs/ogro/ogro_montana/quieto/E.gif",
+    "gifs/ogro/ogro_montana/quieto/NE.gif",
+    "gifs/ogro/ogro_montana/quieto/N.gif",
+    "gifs/ogro/ogro_montana/quieto/NW.gif",
+    "gifs/ogro/ogro_montana/quieto/W.gif",
+    "gifs/ogro/ogro_montana/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/ogro/ogro_montana/saltar/S.gif",
+    "gifs/ogro/ogro_montana/saltar/SE.gif",
+    "gifs/ogro/ogro_montana/saltar/E.gif",
+    "gifs/ogro/ogro_montana/saltar/NE.gif",
+    "gifs/ogro/ogro_montana/saltar/N.gif",
+    "gifs/ogro/ogro_montana/saltar/NW.gif",
+    "gifs/ogro/ogro_montana/saltar/W.gif",
+    "gifs/ogro/ogro_montana/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "ogro_pantano",
+  "criatura": "ogro",
+  "skin": "ogro_pantano",
+  "portada": "gifs/ogro/ogro_pantano.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/ogro/ogro_pantano/agachar/S.gif",
+    "gifs/ogro/ogro_pantano/agachar/SE.gif",
+    "gifs/ogro/ogro_pantano/agachar/E.gif",
+    "gifs/ogro/ogro_pantano/agachar/NE.gif",
+    "gifs/ogro/ogro_pantano/agachar/N.gif",
+    "gifs/ogro/ogro_pantano/agachar/NW.gif",
+    "gifs/ogro/ogro_pantano/agachar/W.gif",
+    "gifs/ogro/ogro_pantano/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/ogro/ogro_pantano/blandir/S.gif",
+    "gifs/ogro/ogro_pantano/blandir/SE.gif",
+    "gifs/ogro/ogro_pantano/blandir/E.gif",
+    "gifs/ogro/ogro_pantano/blandir/NE.gif",
+    "gifs/ogro/ogro_pantano/blandir/N.gif",
+    "gifs/ogro/ogro_pantano/blandir/NW.gif",
+    "gifs/ogro/ogro_pantano/blandir/W.gif",
+    "gifs/ogro/ogro_pantano/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/ogro/ogro_pantano/caminar/S.gif",
+    "gifs/ogro/ogro_pantano/caminar/SE.gif",
+    "gifs/ogro/ogro_pantano/caminar/E.gif",
+    "gifs/ogro/ogro_pantano/caminar/NE.gif",
+    "gifs/ogro/ogro_pantano/caminar/N.gif",
+    "gifs/ogro/ogro_pantano/caminar/NW.gif",
+    "gifs/ogro/ogro_pantano/caminar/W.gif",
+    "gifs/ogro/ogro_pantano/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/ogro/ogro_pantano/caminar_lpc/S.gif",
+    "gifs/ogro/ogro_pantano/caminar_lpc/SE.gif",
+    "gifs/ogro/ogro_pantano/caminar_lpc/E.gif",
+    "gifs/ogro/ogro_pantano/caminar_lpc/NE.gif",
+    "gifs/ogro/ogro_pantano/caminar_lpc/N.gif",
+    "gifs/ogro/ogro_pantano/caminar_lpc/NW.gif",
+    "gifs/ogro/ogro_pantano/caminar_lpc/W.gif",
+    "gifs/ogro/ogro_pantano/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/ogro/ogro_pantano/combo/S.gif",
+    "gifs/ogro/ogro_pantano/combo/SE.gif",
+    "gifs/ogro/ogro_pantano/combo/E.gif",
+    "gifs/ogro/ogro_pantano/combo/NE.gif",
+    "gifs/ogro/ogro_pantano/combo/N.gif",
+    "gifs/ogro/ogro_pantano/combo/NW.gif",
+    "gifs/ogro/ogro_pantano/combo/W.gif",
+    "gifs/ogro/ogro_pantano/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/ogro/ogro_pantano/correr/S.gif",
+    "gifs/ogro/ogro_pantano/correr/SE.gif",
+    "gifs/ogro/ogro_pantano/correr/E.gif",
+    "gifs/ogro/ogro_pantano/correr/NE.gif",
+    "gifs/ogro/ogro_pantano/correr/N.gif",
+    "gifs/ogro/ogro_pantano/correr/NW.gif",
+    "gifs/ogro/ogro_pantano/correr/W.gif",
+    "gifs/ogro/ogro_pantano/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/ogro/ogro_pantano/desenvainar/S.gif",
+    "gifs/ogro/ogro_pantano/desenvainar/SE.gif",
+    "gifs/ogro/ogro_pantano/desenvainar/E.gif",
+    "gifs/ogro/ogro_pantano/desenvainar/NE.gif",
+    "gifs/ogro/ogro_pantano/desenvainar/N.gif",
+    "gifs/ogro/ogro_pantano/desenvainar/NW.gif",
+    "gifs/ogro/ogro_pantano/desenvainar/W.gif",
+    "gifs/ogro/ogro_pantano/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/ogro/ogro_pantano/golpear/S.gif",
+    "gifs/ogro/ogro_pantano/golpear/SE.gif",
+    "gifs/ogro/ogro_pantano/golpear/E.gif",
+    "gifs/ogro/ogro_pantano/golpear/NE.gif",
+    "gifs/ogro/ogro_pantano/golpear/N.gif",
+    "gifs/ogro/ogro_pantano/golpear/NW.gif",
+    "gifs/ogro/ogro_pantano/golpear/W.gif",
+    "gifs/ogro/ogro_pantano/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/ogro/ogro_pantano/neutra/S.gif",
+    "gifs/ogro/ogro_pantano/neutra/SE.gif",
+    "gifs/ogro/ogro_pantano/neutra/E.gif",
+    "gifs/ogro/ogro_pantano/neutra/NE.gif",
+    "gifs/ogro/ogro_pantano/neutra/N.gif",
+    "gifs/ogro/ogro_pantano/neutra/NW.gif",
+    "gifs/ogro/ogro_pantano/neutra/W.gif",
+    "gifs/ogro/ogro_pantano/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/ogro/ogro_pantano/quieto/S.gif",
+    "gifs/ogro/ogro_pantano/quieto/SE.gif",
+    "gifs/ogro/ogro_pantano/quieto/E.gif",
+    "gifs/ogro/ogro_pantano/quieto/NE.gif",
+    "gifs/ogro/ogro_pantano/quieto/N.gif",
+    "gifs/ogro/ogro_pantano/quieto/NW.gif",
+    "gifs/ogro/ogro_pantano/quieto/W.gif",
+    "gifs/ogro/ogro_pantano/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/ogro/ogro_pantano/saltar/S.gif",
+    "gifs/ogro/ogro_pantano/saltar/SE.gif",
+    "gifs/ogro/ogro_pantano/saltar/E.gif",
+    "gifs/ogro/ogro_pantano/saltar/NE.gif",
+    "gifs/ogro/ogro_pantano/saltar/N.gif",
+    "gifs/ogro/ogro_pantano/saltar/NW.gif",
+    "gifs/ogro/ogro_pantano/saltar/W.gif",
+    "gifs/ogro/ogro_pantano/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "orco_caudillo",
+  "criatura": "orco",
+  "skin": "orco_caudillo",
+  "portada": "gifs/orco/orco_caudillo.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/orco/orco_caudillo/agachar/S.gif",
+    "gifs/orco/orco_caudillo/agachar/SE.gif",
+    "gifs/orco/orco_caudillo/agachar/E.gif",
+    "gifs/orco/orco_caudillo/agachar/NE.gif",
+    "gifs/orco/orco_caudillo/agachar/N.gif",
+    "gifs/orco/orco_caudillo/agachar/NW.gif",
+    "gifs/orco/orco_caudillo/agachar/W.gif",
+    "gifs/orco/orco_caudillo/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/orco/orco_caudillo/blandir/S.gif",
+    "gifs/orco/orco_caudillo/blandir/SE.gif",
+    "gifs/orco/orco_caudillo/blandir/E.gif",
+    "gifs/orco/orco_caudillo/blandir/NE.gif",
+    "gifs/orco/orco_caudillo/blandir/N.gif",
+    "gifs/orco/orco_caudillo/blandir/NW.gif",
+    "gifs/orco/orco_caudillo/blandir/W.gif",
+    "gifs/orco/orco_caudillo/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/orco/orco_caudillo/caminar/S.gif",
+    "gifs/orco/orco_caudillo/caminar/SE.gif",
+    "gifs/orco/orco_caudillo/caminar/E.gif",
+    "gifs/orco/orco_caudillo/caminar/NE.gif",
+    "gifs/orco/orco_caudillo/caminar/N.gif",
+    "gifs/orco/orco_caudillo/caminar/NW.gif",
+    "gifs/orco/orco_caudillo/caminar/W.gif",
+    "gifs/orco/orco_caudillo/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/orco/orco_caudillo/caminar_lpc/S.gif",
+    "gifs/orco/orco_caudillo/caminar_lpc/SE.gif",
+    "gifs/orco/orco_caudillo/caminar_lpc/E.gif",
+    "gifs/orco/orco_caudillo/caminar_lpc/NE.gif",
+    "gifs/orco/orco_caudillo/caminar_lpc/N.gif",
+    "gifs/orco/orco_caudillo/caminar_lpc/NW.gif",
+    "gifs/orco/orco_caudillo/caminar_lpc/W.gif",
+    "gifs/orco/orco_caudillo/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/orco/orco_caudillo/combo/S.gif",
+    "gifs/orco/orco_caudillo/combo/SE.gif",
+    "gifs/orco/orco_caudillo/combo/E.gif",
+    "gifs/orco/orco_caudillo/combo/NE.gif",
+    "gifs/orco/orco_caudillo/combo/N.gif",
+    "gifs/orco/orco_caudillo/combo/NW.gif",
+    "gifs/orco/orco_caudillo/combo/W.gif",
+    "gifs/orco/orco_caudillo/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/orco/orco_caudillo/correr/S.gif",
+    "gifs/orco/orco_caudillo/correr/SE.gif",
+    "gifs/orco/orco_caudillo/correr/E.gif",
+    "gifs/orco/orco_caudillo/correr/NE.gif",
+    "gifs/orco/orco_caudillo/correr/N.gif",
+    "gifs/orco/orco_caudillo/correr/NW.gif",
+    "gifs/orco/orco_caudillo/correr/W.gif",
+    "gifs/orco/orco_caudillo/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/orco/orco_caudillo/desenvainar/S.gif",
+    "gifs/orco/orco_caudillo/desenvainar/SE.gif",
+    "gifs/orco/orco_caudillo/desenvainar/E.gif",
+    "gifs/orco/orco_caudillo/desenvainar/NE.gif",
+    "gifs/orco/orco_caudillo/desenvainar/N.gif",
+    "gifs/orco/orco_caudillo/desenvainar/NW.gif",
+    "gifs/orco/orco_caudillo/desenvainar/W.gif",
+    "gifs/orco/orco_caudillo/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/orco/orco_caudillo/golpear/S.gif",
+    "gifs/orco/orco_caudillo/golpear/SE.gif",
+    "gifs/orco/orco_caudillo/golpear/E.gif",
+    "gifs/orco/orco_caudillo/golpear/NE.gif",
+    "gifs/orco/orco_caudillo/golpear/N.gif",
+    "gifs/orco/orco_caudillo/golpear/NW.gif",
+    "gifs/orco/orco_caudillo/golpear/W.gif",
+    "gifs/orco/orco_caudillo/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/orco/orco_caudillo/neutra/S.gif",
+    "gifs/orco/orco_caudillo/neutra/SE.gif",
+    "gifs/orco/orco_caudillo/neutra/E.gif",
+    "gifs/orco/orco_caudillo/neutra/NE.gif",
+    "gifs/orco/orco_caudillo/neutra/N.gif",
+    "gifs/orco/orco_caudillo/neutra/NW.gif",
+    "gifs/orco/orco_caudillo/neutra/W.gif",
+    "gifs/orco/orco_caudillo/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/orco/orco_caudillo/quieto/S.gif",
+    "gifs/orco/orco_caudillo/quieto/SE.gif",
+    "gifs/orco/orco_caudillo/quieto/E.gif",
+    "gifs/orco/orco_caudillo/quieto/NE.gif",
+    "gifs/orco/orco_caudillo/quieto/N.gif",
+    "gifs/orco/orco_caudillo/quieto/NW.gif",
+    "gifs/orco/orco_caudillo/quieto/W.gif",
+    "gifs/orco/orco_caudillo/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/orco/orco_caudillo/saltar/S.gif",
+    "gifs/orco/orco_caudillo/saltar/SE.gif",
+    "gifs/orco/orco_caudillo/saltar/E.gif",
+    "gifs/orco/orco_caudillo/saltar/NE.gif",
+    "gifs/orco/orco_caudillo/saltar/N.gif",
+    "gifs/orco/orco_caudillo/saltar/NW.gif",
+    "gifs/orco/orco_caudillo/saltar/W.gif",
+    "gifs/orco/orco_caudillo/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "orco_cenizas",
+  "criatura": "orco",
+  "skin": "orco_cenizas",
+  "portada": "gifs/orco/orco_cenizas.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/orco/orco_cenizas/agachar/S.gif",
+    "gifs/orco/orco_cenizas/agachar/SE.gif",
+    "gifs/orco/orco_cenizas/agachar/E.gif",
+    "gifs/orco/orco_cenizas/agachar/NE.gif",
+    "gifs/orco/orco_cenizas/agachar/N.gif",
+    "gifs/orco/orco_cenizas/agachar/NW.gif",
+    "gifs/orco/orco_cenizas/agachar/W.gif",
+    "gifs/orco/orco_cenizas/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/orco/orco_cenizas/blandir/S.gif",
+    "gifs/orco/orco_cenizas/blandir/SE.gif",
+    "gifs/orco/orco_cenizas/blandir/E.gif",
+    "gifs/orco/orco_cenizas/blandir/NE.gif",
+    "gifs/orco/orco_cenizas/blandir/N.gif",
+    "gifs/orco/orco_cenizas/blandir/NW.gif",
+    "gifs/orco/orco_cenizas/blandir/W.gif",
+    "gifs/orco/orco_cenizas/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/orco/orco_cenizas/caminar/S.gif",
+    "gifs/orco/orco_cenizas/caminar/SE.gif",
+    "gifs/orco/orco_cenizas/caminar/E.gif",
+    "gifs/orco/orco_cenizas/caminar/NE.gif",
+    "gifs/orco/orco_cenizas/caminar/N.gif",
+    "gifs/orco/orco_cenizas/caminar/NW.gif",
+    "gifs/orco/orco_cenizas/caminar/W.gif",
+    "gifs/orco/orco_cenizas/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/orco/orco_cenizas/caminar_lpc/S.gif",
+    "gifs/orco/orco_cenizas/caminar_lpc/SE.gif",
+    "gifs/orco/orco_cenizas/caminar_lpc/E.gif",
+    "gifs/orco/orco_cenizas/caminar_lpc/NE.gif",
+    "gifs/orco/orco_cenizas/caminar_lpc/N.gif",
+    "gifs/orco/orco_cenizas/caminar_lpc/NW.gif",
+    "gifs/orco/orco_cenizas/caminar_lpc/W.gif",
+    "gifs/orco/orco_cenizas/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/orco/orco_cenizas/combo/S.gif",
+    "gifs/orco/orco_cenizas/combo/SE.gif",
+    "gifs/orco/orco_cenizas/combo/E.gif",
+    "gifs/orco/orco_cenizas/combo/NE.gif",
+    "gifs/orco/orco_cenizas/combo/N.gif",
+    "gifs/orco/orco_cenizas/combo/NW.gif",
+    "gifs/orco/orco_cenizas/combo/W.gif",
+    "gifs/orco/orco_cenizas/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/orco/orco_cenizas/correr/S.gif",
+    "gifs/orco/orco_cenizas/correr/SE.gif",
+    "gifs/orco/orco_cenizas/correr/E.gif",
+    "gifs/orco/orco_cenizas/correr/NE.gif",
+    "gifs/orco/orco_cenizas/correr/N.gif",
+    "gifs/orco/orco_cenizas/correr/NW.gif",
+    "gifs/orco/orco_cenizas/correr/W.gif",
+    "gifs/orco/orco_cenizas/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/orco/orco_cenizas/desenvainar/S.gif",
+    "gifs/orco/orco_cenizas/desenvainar/SE.gif",
+    "gifs/orco/orco_cenizas/desenvainar/E.gif",
+    "gifs/orco/orco_cenizas/desenvainar/NE.gif",
+    "gifs/orco/orco_cenizas/desenvainar/N.gif",
+    "gifs/orco/orco_cenizas/desenvainar/NW.gif",
+    "gifs/orco/orco_cenizas/desenvainar/W.gif",
+    "gifs/orco/orco_cenizas/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/orco/orco_cenizas/golpear/S.gif",
+    "gifs/orco/orco_cenizas/golpear/SE.gif",
+    "gifs/orco/orco_cenizas/golpear/E.gif",
+    "gifs/orco/orco_cenizas/golpear/NE.gif",
+    "gifs/orco/orco_cenizas/golpear/N.gif",
+    "gifs/orco/orco_cenizas/golpear/NW.gif",
+    "gifs/orco/orco_cenizas/golpear/W.gif",
+    "gifs/orco/orco_cenizas/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/orco/orco_cenizas/neutra/S.gif",
+    "gifs/orco/orco_cenizas/neutra/SE.gif",
+    "gifs/orco/orco_cenizas/neutra/E.gif",
+    "gifs/orco/orco_cenizas/neutra/NE.gif",
+    "gifs/orco/orco_cenizas/neutra/N.gif",
+    "gifs/orco/orco_cenizas/neutra/NW.gif",
+    "gifs/orco/orco_cenizas/neutra/W.gif",
+    "gifs/orco/orco_cenizas/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/orco/orco_cenizas/quieto/S.gif",
+    "gifs/orco/orco_cenizas/quieto/SE.gif",
+    "gifs/orco/orco_cenizas/quieto/E.gif",
+    "gifs/orco/orco_cenizas/quieto/NE.gif",
+    "gifs/orco/orco_cenizas/quieto/N.gif",
+    "gifs/orco/orco_cenizas/quieto/NW.gif",
+    "gifs/orco/orco_cenizas/quieto/W.gif",
+    "gifs/orco/orco_cenizas/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/orco/orco_cenizas/saltar/S.gif",
+    "gifs/orco/orco_cenizas/saltar/SE.gif",
+    "gifs/orco/orco_cenizas/saltar/E.gif",
+    "gifs/orco/orco_cenizas/saltar/NE.gif",
+    "gifs/orco/orco_cenizas/saltar/N.gif",
+    "gifs/orco/orco_cenizas/saltar/NW.gif",
+    "gifs/orco/orco_cenizas/saltar/W.gif",
+    "gifs/orco/orco_cenizas/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "orco_desierto",
+  "criatura": "orco",
+  "skin": "orco_desierto",
+  "portada": "gifs/orco/orco_desierto.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/orco/orco_desierto/agachar/S.gif",
+    "gifs/orco/orco_desierto/agachar/SE.gif",
+    "gifs/orco/orco_desierto/agachar/E.gif",
+    "gifs/orco/orco_desierto/agachar/NE.gif",
+    "gifs/orco/orco_desierto/agachar/N.gif",
+    "gifs/orco/orco_desierto/agachar/NW.gif",
+    "gifs/orco/orco_desierto/agachar/W.gif",
+    "gifs/orco/orco_desierto/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/orco/orco_desierto/blandir/S.gif",
+    "gifs/orco/orco_desierto/blandir/SE.gif",
+    "gifs/orco/orco_desierto/blandir/E.gif",
+    "gifs/orco/orco_desierto/blandir/NE.gif",
+    "gifs/orco/orco_desierto/blandir/N.gif",
+    "gifs/orco/orco_desierto/blandir/NW.gif",
+    "gifs/orco/orco_desierto/blandir/W.gif",
+    "gifs/orco/orco_desierto/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/orco/orco_desierto/caminar/S.gif",
+    "gifs/orco/orco_desierto/caminar/SE.gif",
+    "gifs/orco/orco_desierto/caminar/E.gif",
+    "gifs/orco/orco_desierto/caminar/NE.gif",
+    "gifs/orco/orco_desierto/caminar/N.gif",
+    "gifs/orco/orco_desierto/caminar/NW.gif",
+    "gifs/orco/orco_desierto/caminar/W.gif",
+    "gifs/orco/orco_desierto/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/orco/orco_desierto/caminar_lpc/S.gif",
+    "gifs/orco/orco_desierto/caminar_lpc/SE.gif",
+    "gifs/orco/orco_desierto/caminar_lpc/E.gif",
+    "gifs/orco/orco_desierto/caminar_lpc/NE.gif",
+    "gifs/orco/orco_desierto/caminar_lpc/N.gif",
+    "gifs/orco/orco_desierto/caminar_lpc/NW.gif",
+    "gifs/orco/orco_desierto/caminar_lpc/W.gif",
+    "gifs/orco/orco_desierto/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/orco/orco_desierto/combo/S.gif",
+    "gifs/orco/orco_desierto/combo/SE.gif",
+    "gifs/orco/orco_desierto/combo/E.gif",
+    "gifs/orco/orco_desierto/combo/NE.gif",
+    "gifs/orco/orco_desierto/combo/N.gif",
+    "gifs/orco/orco_desierto/combo/NW.gif",
+    "gifs/orco/orco_desierto/combo/W.gif",
+    "gifs/orco/orco_desierto/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/orco/orco_desierto/correr/S.gif",
+    "gifs/orco/orco_desierto/correr/SE.gif",
+    "gifs/orco/orco_desierto/correr/E.gif",
+    "gifs/orco/orco_desierto/correr/NE.gif",
+    "gifs/orco/orco_desierto/correr/N.gif",
+    "gifs/orco/orco_desierto/correr/NW.gif",
+    "gifs/orco/orco_desierto/correr/W.gif",
+    "gifs/orco/orco_desierto/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/orco/orco_desierto/desenvainar/S.gif",
+    "gifs/orco/orco_desierto/desenvainar/SE.gif",
+    "gifs/orco/orco_desierto/desenvainar/E.gif",
+    "gifs/orco/orco_desierto/desenvainar/NE.gif",
+    "gifs/orco/orco_desierto/desenvainar/N.gif",
+    "gifs/orco/orco_desierto/desenvainar/NW.gif",
+    "gifs/orco/orco_desierto/desenvainar/W.gif",
+    "gifs/orco/orco_desierto/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/orco/orco_desierto/golpear/S.gif",
+    "gifs/orco/orco_desierto/golpear/SE.gif",
+    "gifs/orco/orco_desierto/golpear/E.gif",
+    "gifs/orco/orco_desierto/golpear/NE.gif",
+    "gifs/orco/orco_desierto/golpear/N.gif",
+    "gifs/orco/orco_desierto/golpear/NW.gif",
+    "gifs/orco/orco_desierto/golpear/W.gif",
+    "gifs/orco/orco_desierto/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/orco/orco_desierto/neutra/S.gif",
+    "gifs/orco/orco_desierto/neutra/SE.gif",
+    "gifs/orco/orco_desierto/neutra/E.gif",
+    "gifs/orco/orco_desierto/neutra/NE.gif",
+    "gifs/orco/orco_desierto/neutra/N.gif",
+    "gifs/orco/orco_desierto/neutra/NW.gif",
+    "gifs/orco/orco_desierto/neutra/W.gif",
+    "gifs/orco/orco_desierto/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/orco/orco_desierto/quieto/S.gif",
+    "gifs/orco/orco_desierto/quieto/SE.gif",
+    "gifs/orco/orco_desierto/quieto/E.gif",
+    "gifs/orco/orco_desierto/quieto/NE.gif",
+    "gifs/orco/orco_desierto/quieto/N.gif",
+    "gifs/orco/orco_desierto/quieto/NW.gif",
+    "gifs/orco/orco_desierto/quieto/W.gif",
+    "gifs/orco/orco_desierto/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/orco/orco_desierto/saltar/S.gif",
+    "gifs/orco/orco_desierto/saltar/SE.gif",
+    "gifs/orco/orco_desierto/saltar/E.gif",
+    "gifs/orco/orco_desierto/saltar/NE.gif",
+    "gifs/orco/orco_desierto/saltar/N.gif",
+    "gifs/orco/orco_desierto/saltar/NW.gif",
+    "gifs/orco/orco_desierto/saltar/W.gif",
+    "gifs/orco/orco_desierto/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "troll_cueva",
+  "criatura": "troll",
+  "skin": "troll_cueva",
+  "portada": "gifs/troll/troll_cueva.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/troll/troll_cueva/agachar/S.gif",
+    "gifs/troll/troll_cueva/agachar/SE.gif",
+    "gifs/troll/troll_cueva/agachar/E.gif",
+    "gifs/troll/troll_cueva/agachar/NE.gif",
+    "gifs/troll/troll_cueva/agachar/N.gif",
+    "gifs/troll/troll_cueva/agachar/NW.gif",
+    "gifs/troll/troll_cueva/agachar/W.gif",
+    "gifs/troll/troll_cueva/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/troll/troll_cueva/blandir/S.gif",
+    "gifs/troll/troll_cueva/blandir/SE.gif",
+    "gifs/troll/troll_cueva/blandir/E.gif",
+    "gifs/troll/troll_cueva/blandir/NE.gif",
+    "gifs/troll/troll_cueva/blandir/N.gif",
+    "gifs/troll/troll_cueva/blandir/NW.gif",
+    "gifs/troll/troll_cueva/blandir/W.gif",
+    "gifs/troll/troll_cueva/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/troll/troll_cueva/caminar/S.gif",
+    "gifs/troll/troll_cueva/caminar/SE.gif",
+    "gifs/troll/troll_cueva/caminar/E.gif",
+    "gifs/troll/troll_cueva/caminar/NE.gif",
+    "gifs/troll/troll_cueva/caminar/N.gif",
+    "gifs/troll/troll_cueva/caminar/NW.gif",
+    "gifs/troll/troll_cueva/caminar/W.gif",
+    "gifs/troll/troll_cueva/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/troll/troll_cueva/caminar_lpc/S.gif",
+    "gifs/troll/troll_cueva/caminar_lpc/SE.gif",
+    "gifs/troll/troll_cueva/caminar_lpc/E.gif",
+    "gifs/troll/troll_cueva/caminar_lpc/NE.gif",
+    "gifs/troll/troll_cueva/caminar_lpc/N.gif",
+    "gifs/troll/troll_cueva/caminar_lpc/NW.gif",
+    "gifs/troll/troll_cueva/caminar_lpc/W.gif",
+    "gifs/troll/troll_cueva/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/troll/troll_cueva/combo/S.gif",
+    "gifs/troll/troll_cueva/combo/SE.gif",
+    "gifs/troll/troll_cueva/combo/E.gif",
+    "gifs/troll/troll_cueva/combo/NE.gif",
+    "gifs/troll/troll_cueva/combo/N.gif",
+    "gifs/troll/troll_cueva/combo/NW.gif",
+    "gifs/troll/troll_cueva/combo/W.gif",
+    "gifs/troll/troll_cueva/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/troll/troll_cueva/correr/S.gif",
+    "gifs/troll/troll_cueva/correr/SE.gif",
+    "gifs/troll/troll_cueva/correr/E.gif",
+    "gifs/troll/troll_cueva/correr/NE.gif",
+    "gifs/troll/troll_cueva/correr/N.gif",
+    "gifs/troll/troll_cueva/correr/NW.gif",
+    "gifs/troll/troll_cueva/correr/W.gif",
+    "gifs/troll/troll_cueva/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/troll/troll_cueva/desenvainar/S.gif",
+    "gifs/troll/troll_cueva/desenvainar/SE.gif",
+    "gifs/troll/troll_cueva/desenvainar/E.gif",
+    "gifs/troll/troll_cueva/desenvainar/NE.gif",
+    "gifs/troll/troll_cueva/desenvainar/N.gif",
+    "gifs/troll/troll_cueva/desenvainar/NW.gif",
+    "gifs/troll/troll_cueva/desenvainar/W.gif",
+    "gifs/troll/troll_cueva/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/troll/troll_cueva/golpear/S.gif",
+    "gifs/troll/troll_cueva/golpear/SE.gif",
+    "gifs/troll/troll_cueva/golpear/E.gif",
+    "gifs/troll/troll_cueva/golpear/NE.gif",
+    "gifs/troll/troll_cueva/golpear/N.gif",
+    "gifs/troll/troll_cueva/golpear/NW.gif",
+    "gifs/troll/troll_cueva/golpear/W.gif",
+    "gifs/troll/troll_cueva/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/troll/troll_cueva/neutra/S.gif",
+    "gifs/troll/troll_cueva/neutra/SE.gif",
+    "gifs/troll/troll_cueva/neutra/E.gif",
+    "gifs/troll/troll_cueva/neutra/NE.gif",
+    "gifs/troll/troll_cueva/neutra/N.gif",
+    "gifs/troll/troll_cueva/neutra/NW.gif",
+    "gifs/troll/troll_cueva/neutra/W.gif",
+    "gifs/troll/troll_cueva/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/troll/troll_cueva/quieto/S.gif",
+    "gifs/troll/troll_cueva/quieto/SE.gif",
+    "gifs/troll/troll_cueva/quieto/E.gif",
+    "gifs/troll/troll_cueva/quieto/NE.gif",
+    "gifs/troll/troll_cueva/quieto/N.gif",
+    "gifs/troll/troll_cueva/quieto/NW.gif",
+    "gifs/troll/troll_cueva/quieto/W.gif",
+    "gifs/troll/troll_cueva/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/troll/troll_cueva/saltar/S.gif",
+    "gifs/troll/troll_cueva/saltar/SE.gif",
+    "gifs/troll/troll_cueva/saltar/E.gif",
+    "gifs/troll/troll_cueva/saltar/NE.gif",
+    "gifs/troll/troll_cueva/saltar/N.gif",
+    "gifs/troll/troll_cueva/saltar/NW.gif",
+    "gifs/troll/troll_cueva/saltar/W.gif",
+    "gifs/troll/troll_cueva/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "troll_musgo",
+  "criatura": "troll",
+  "skin": "troll_musgo",
+  "portada": "gifs/troll/troll_musgo.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/troll/troll_musgo/agachar/S.gif",
+    "gifs/troll/troll_musgo/agachar/SE.gif",
+    "gifs/troll/troll_musgo/agachar/E.gif",
+    "gifs/troll/troll_musgo/agachar/NE.gif",
+    "gifs/troll/troll_musgo/agachar/N.gif",
+    "gifs/troll/troll_musgo/agachar/NW.gif",
+    "gifs/troll/troll_musgo/agachar/W.gif",
+    "gifs/troll/troll_musgo/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/troll/troll_musgo/blandir/S.gif",
+    "gifs/troll/troll_musgo/blandir/SE.gif",
+    "gifs/troll/troll_musgo/blandir/E.gif",
+    "gifs/troll/troll_musgo/blandir/NE.gif",
+    "gifs/troll/troll_musgo/blandir/N.gif",
+    "gifs/troll/troll_musgo/blandir/NW.gif",
+    "gifs/troll/troll_musgo/blandir/W.gif",
+    "gifs/troll/troll_musgo/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/troll/troll_musgo/caminar/S.gif",
+    "gifs/troll/troll_musgo/caminar/SE.gif",
+    "gifs/troll/troll_musgo/caminar/E.gif",
+    "gifs/troll/troll_musgo/caminar/NE.gif",
+    "gifs/troll/troll_musgo/caminar/N.gif",
+    "gifs/troll/troll_musgo/caminar/NW.gif",
+    "gifs/troll/troll_musgo/caminar/W.gif",
+    "gifs/troll/troll_musgo/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/troll/troll_musgo/caminar_lpc/S.gif",
+    "gifs/troll/troll_musgo/caminar_lpc/SE.gif",
+    "gifs/troll/troll_musgo/caminar_lpc/E.gif",
+    "gifs/troll/troll_musgo/caminar_lpc/NE.gif",
+    "gifs/troll/troll_musgo/caminar_lpc/N.gif",
+    "gifs/troll/troll_musgo/caminar_lpc/NW.gif",
+    "gifs/troll/troll_musgo/caminar_lpc/W.gif",
+    "gifs/troll/troll_musgo/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/troll/troll_musgo/combo/S.gif",
+    "gifs/troll/troll_musgo/combo/SE.gif",
+    "gifs/troll/troll_musgo/combo/E.gif",
+    "gifs/troll/troll_musgo/combo/NE.gif",
+    "gifs/troll/troll_musgo/combo/N.gif",
+    "gifs/troll/troll_musgo/combo/NW.gif",
+    "gifs/troll/troll_musgo/combo/W.gif",
+    "gifs/troll/troll_musgo/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/troll/troll_musgo/correr/S.gif",
+    "gifs/troll/troll_musgo/correr/SE.gif",
+    "gifs/troll/troll_musgo/correr/E.gif",
+    "gifs/troll/troll_musgo/correr/NE.gif",
+    "gifs/troll/troll_musgo/correr/N.gif",
+    "gifs/troll/troll_musgo/correr/NW.gif",
+    "gifs/troll/troll_musgo/correr/W.gif",
+    "gifs/troll/troll_musgo/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/troll/troll_musgo/desenvainar/S.gif",
+    "gifs/troll/troll_musgo/desenvainar/SE.gif",
+    "gifs/troll/troll_musgo/desenvainar/E.gif",
+    "gifs/troll/troll_musgo/desenvainar/NE.gif",
+    "gifs/troll/troll_musgo/desenvainar/N.gif",
+    "gifs/troll/troll_musgo/desenvainar/NW.gif",
+    "gifs/troll/troll_musgo/desenvainar/W.gif",
+    "gifs/troll/troll_musgo/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/troll/troll_musgo/golpear/S.gif",
+    "gifs/troll/troll_musgo/golpear/SE.gif",
+    "gifs/troll/troll_musgo/golpear/E.gif",
+    "gifs/troll/troll_musgo/golpear/NE.gif",
+    "gifs/troll/troll_musgo/golpear/N.gif",
+    "gifs/troll/troll_musgo/golpear/NW.gif",
+    "gifs/troll/troll_musgo/golpear/W.gif",
+    "gifs/troll/troll_musgo/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/troll/troll_musgo/neutra/S.gif",
+    "gifs/troll/troll_musgo/neutra/SE.gif",
+    "gifs/troll/troll_musgo/neutra/E.gif",
+    "gifs/troll/troll_musgo/neutra/NE.gif",
+    "gifs/troll/troll_musgo/neutra/N.gif",
+    "gifs/troll/troll_musgo/neutra/NW.gif",
+    "gifs/troll/troll_musgo/neutra/W.gif",
+    "gifs/troll/troll_musgo/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/troll/troll_musgo/quieto/S.gif",
+    "gifs/troll/troll_musgo/quieto/SE.gif",
+    "gifs/troll/troll_musgo/quieto/E.gif",
+    "gifs/troll/troll_musgo/quieto/NE.gif",
+    "gifs/troll/troll_musgo/quieto/N.gif",
+    "gifs/troll/troll_musgo/quieto/NW.gif",
+    "gifs/troll/troll_musgo/quieto/W.gif",
+    "gifs/troll/troll_musgo/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/troll/troll_musgo/saltar/S.gif",
+    "gifs/troll/troll_musgo/saltar/SE.gif",
+    "gifs/troll/troll_musgo/saltar/E.gif",
+    "gifs/troll/troll_musgo/saltar/NE.gif",
+    "gifs/troll/troll_musgo/saltar/N.gif",
+    "gifs/troll/troll_musgo/saltar/NW.gif",
+    "gifs/troll/troll_musgo/saltar/W.gif",
+    "gifs/troll/troll_musgo/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "troll_piedra",
+  "criatura": "troll",
+  "skin": "troll_piedra",
+  "portada": "gifs/troll/troll_piedra.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/troll/troll_piedra/agachar/S.gif",
+    "gifs/troll/troll_piedra/agachar/SE.gif",
+    "gifs/troll/troll_piedra/agachar/E.gif",
+    "gifs/troll/troll_piedra/agachar/NE.gif",
+    "gifs/troll/troll_piedra/agachar/N.gif",
+    "gifs/troll/troll_piedra/agachar/NW.gif",
+    "gifs/troll/troll_piedra/agachar/W.gif",
+    "gifs/troll/troll_piedra/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/troll/troll_piedra/blandir/S.gif",
+    "gifs/troll/troll_piedra/blandir/SE.gif",
+    "gifs/troll/troll_piedra/blandir/E.gif",
+    "gifs/troll/troll_piedra/blandir/NE.gif",
+    "gifs/troll/troll_piedra/blandir/N.gif",
+    "gifs/troll/troll_piedra/blandir/NW.gif",
+    "gifs/troll/troll_piedra/blandir/W.gif",
+    "gifs/troll/troll_piedra/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/troll/troll_piedra/caminar/S.gif",
+    "gifs/troll/troll_piedra/caminar/SE.gif",
+    "gifs/troll/troll_piedra/caminar/E.gif",
+    "gifs/troll/troll_piedra/caminar/NE.gif",
+    "gifs/troll/troll_piedra/caminar/N.gif",
+    "gifs/troll/troll_piedra/caminar/NW.gif",
+    "gifs/troll/troll_piedra/caminar/W.gif",
+    "gifs/troll/troll_piedra/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/troll/troll_piedra/caminar_lpc/S.gif",
+    "gifs/troll/troll_piedra/caminar_lpc/SE.gif",
+    "gifs/troll/troll_piedra/caminar_lpc/E.gif",
+    "gifs/troll/troll_piedra/caminar_lpc/NE.gif",
+    "gifs/troll/troll_piedra/caminar_lpc/N.gif",
+    "gifs/troll/troll_piedra/caminar_lpc/NW.gif",
+    "gifs/troll/troll_piedra/caminar_lpc/W.gif",
+    "gifs/troll/troll_piedra/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/troll/troll_piedra/combo/S.gif",
+    "gifs/troll/troll_piedra/combo/SE.gif",
+    "gifs/troll/troll_piedra/combo/E.gif",
+    "gifs/troll/troll_piedra/combo/NE.gif",
+    "gifs/troll/troll_piedra/combo/N.gif",
+    "gifs/troll/troll_piedra/combo/NW.gif",
+    "gifs/troll/troll_piedra/combo/W.gif",
+    "gifs/troll/troll_piedra/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/troll/troll_piedra/correr/S.gif",
+    "gifs/troll/troll_piedra/correr/SE.gif",
+    "gifs/troll/troll_piedra/correr/E.gif",
+    "gifs/troll/troll_piedra/correr/NE.gif",
+    "gifs/troll/troll_piedra/correr/N.gif",
+    "gifs/troll/troll_piedra/correr/NW.gif",
+    "gifs/troll/troll_piedra/correr/W.gif",
+    "gifs/troll/troll_piedra/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/troll/troll_piedra/desenvainar/S.gif",
+    "gifs/troll/troll_piedra/desenvainar/SE.gif",
+    "gifs/troll/troll_piedra/desenvainar/E.gif",
+    "gifs/troll/troll_piedra/desenvainar/NE.gif",
+    "gifs/troll/troll_piedra/desenvainar/N.gif",
+    "gifs/troll/troll_piedra/desenvainar/NW.gif",
+    "gifs/troll/troll_piedra/desenvainar/W.gif",
+    "gifs/troll/troll_piedra/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/troll/troll_piedra/golpear/S.gif",
+    "gifs/troll/troll_piedra/golpear/SE.gif",
+    "gifs/troll/troll_piedra/golpear/E.gif",
+    "gifs/troll/troll_piedra/golpear/NE.gif",
+    "gifs/troll/troll_piedra/golpear/N.gif",
+    "gifs/troll/troll_piedra/golpear/NW.gif",
+    "gifs/troll/troll_piedra/golpear/W.gif",
+    "gifs/troll/troll_piedra/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/troll/troll_piedra/neutra/S.gif",
+    "gifs/troll/troll_piedra/neutra/SE.gif",
+    "gifs/troll/troll_piedra/neutra/E.gif",
+    "gifs/troll/troll_piedra/neutra/NE.gif",
+    "gifs/troll/troll_piedra/neutra/N.gif",
+    "gifs/troll/troll_piedra/neutra/NW.gif",
+    "gifs/troll/troll_piedra/neutra/W.gif",
+    "gifs/troll/troll_piedra/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/troll/troll_piedra/quieto/S.gif",
+    "gifs/troll/troll_piedra/quieto/SE.gif",
+    "gifs/troll/troll_piedra/quieto/E.gif",
+    "gifs/troll/troll_piedra/quieto/NE.gif",
+    "gifs/troll/troll_piedra/quieto/N.gif",
+    "gifs/troll/troll_piedra/quieto/NW.gif",
+    "gifs/troll/troll_piedra/quieto/W.gif",
+    "gifs/troll/troll_piedra/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/troll/troll_piedra/saltar/S.gif",
+    "gifs/troll/troll_piedra/saltar/SE.gif",
+    "gifs/troll/troll_piedra/saltar/E.gif",
+    "gifs/troll/troll_piedra/saltar/NE.gif",
+    "gifs/troll/troll_piedra/saltar/N.gif",
+    "gifs/troll/troll_piedra/saltar/NW.gif",
+    "gifs/troll/troll_piedra/saltar/W.gif",
+    "gifs/troll/troll_piedra/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "vampira",
+  "criatura": "humano",
+  "skin": "vampira",
+  "portada": "gifs/humano/vampira.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/humano/vampira/agachar/S.gif",
+    "gifs/humano/vampira/agachar/SE.gif",
+    "gifs/humano/vampira/agachar/E.gif",
+    "gifs/humano/vampira/agachar/NE.gif",
+    "gifs/humano/vampira/agachar/N.gif",
+    "gifs/humano/vampira/agachar/NW.gif",
+    "gifs/humano/vampira/agachar/W.gif",
+    "gifs/humano/vampira/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/humano/vampira/blandir/S.gif",
+    "gifs/humano/vampira/blandir/SE.gif",
+    "gifs/humano/vampira/blandir/E.gif",
+    "gifs/humano/vampira/blandir/NE.gif",
+    "gifs/humano/vampira/blandir/N.gif",
+    "gifs/humano/vampira/blandir/NW.gif",
+    "gifs/humano/vampira/blandir/W.gif",
+    "gifs/humano/vampira/blandir/SW.gif"
+   ],
+   "caminar": [
+    "gifs/humano/vampira/caminar/S.gif",
+    "gifs/humano/vampira/caminar/SE.gif",
+    "gifs/humano/vampira/caminar/E.gif",
+    "gifs/humano/vampira/caminar/NE.gif",
+    "gifs/humano/vampira/caminar/N.gif",
+    "gifs/humano/vampira/caminar/NW.gif",
+    "gifs/humano/vampira/caminar/W.gif",
+    "gifs/humano/vampira/caminar/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/humano/vampira/caminar_lpc/S.gif",
+    "gifs/humano/vampira/caminar_lpc/SE.gif",
+    "gifs/humano/vampira/caminar_lpc/E.gif",
+    "gifs/humano/vampira/caminar_lpc/NE.gif",
+    "gifs/humano/vampira/caminar_lpc/N.gif",
+    "gifs/humano/vampira/caminar_lpc/NW.gif",
+    "gifs/humano/vampira/caminar_lpc/W.gif",
+    "gifs/humano/vampira/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/humano/vampira/combo/S.gif",
+    "gifs/humano/vampira/combo/SE.gif",
+    "gifs/humano/vampira/combo/E.gif",
+    "gifs/humano/vampira/combo/NE.gif",
+    "gifs/humano/vampira/combo/N.gif",
+    "gifs/humano/vampira/combo/NW.gif",
+    "gifs/humano/vampira/combo/W.gif",
+    "gifs/humano/vampira/combo/SW.gif"
+   ],
+   "correr": [
+    "gifs/humano/vampira/correr/S.gif",
+    "gifs/humano/vampira/correr/SE.gif",
+    "gifs/humano/vampira/correr/E.gif",
+    "gifs/humano/vampira/correr/NE.gif",
+    "gifs/humano/vampira/correr/N.gif",
+    "gifs/humano/vampira/correr/NW.gif",
+    "gifs/humano/vampira/correr/W.gif",
+    "gifs/humano/vampira/correr/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/humano/vampira/desenvainar/S.gif",
+    "gifs/humano/vampira/desenvainar/SE.gif",
+    "gifs/humano/vampira/desenvainar/E.gif",
+    "gifs/humano/vampira/desenvainar/NE.gif",
+    "gifs/humano/vampira/desenvainar/N.gif",
+    "gifs/humano/vampira/desenvainar/NW.gif",
+    "gifs/humano/vampira/desenvainar/W.gif",
+    "gifs/humano/vampira/desenvainar/SW.gif"
+   ],
+   "golpear": [
+    "gifs/humano/vampira/golpear/S.gif",
+    "gifs/humano/vampira/golpear/SE.gif",
+    "gifs/humano/vampira/golpear/E.gif",
+    "gifs/humano/vampira/golpear/NE.gif",
+    "gifs/humano/vampira/golpear/N.gif",
+    "gifs/humano/vampira/golpear/NW.gif",
+    "gifs/humano/vampira/golpear/W.gif",
+    "gifs/humano/vampira/golpear/SW.gif"
+   ],
+   "neutra": [
+    "gifs/humano/vampira/neutra/S.gif",
+    "gifs/humano/vampira/neutra/SE.gif",
+    "gifs/humano/vampira/neutra/E.gif",
+    "gifs/humano/vampira/neutra/NE.gif",
+    "gifs/humano/vampira/neutra/N.gif",
+    "gifs/humano/vampira/neutra/NW.gif",
+    "gifs/humano/vampira/neutra/W.gif",
+    "gifs/humano/vampira/neutra/SW.gif"
+   ],
+   "quieto": [
+    "gifs/humano/vampira/quieto/S.gif",
+    "gifs/humano/vampira/quieto/SE.gif",
+    "gifs/humano/vampira/quieto/E.gif",
+    "gifs/humano/vampira/quieto/NE.gif",
+    "gifs/humano/vampira/quieto/N.gif",
+    "gifs/humano/vampira/quieto/NW.gif",
+    "gifs/humano/vampira/quieto/W.gif",
+    "gifs/humano/vampira/quieto/SW.gif"
+   ],
+   "saltar": [
+    "gifs/humano/vampira/saltar/S.gif",
+    "gifs/humano/vampira/saltar/SE.gif",
+    "gifs/humano/vampira/saltar/E.gif",
+    "gifs/humano/vampira/saltar/NE.gif",
+    "gifs/humano/vampira/saltar/N.gif",
+    "gifs/humano/vampira/saltar/NW.gif",
+    "gifs/humano/vampira/saltar/W.gif",
+    "gifs/humano/vampira/saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "zombi_palido",
+  "criatura": "zombi",
+  "skin": "zombi_palido",
+  "portada": "gifs/zombi/zombi_palido.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/zombi/zombi_palido/agachar/S.gif",
+    "gifs/zombi/zombi_palido/agachar/SE.gif",
+    "gifs/zombi/zombi_palido/agachar/E.gif",
+    "gifs/zombi/zombi_palido/agachar/NE.gif",
+    "gifs/zombi/zombi_palido/agachar/N.gif",
+    "gifs/zombi/zombi_palido/agachar/NW.gif",
+    "gifs/zombi/zombi_palido/agachar/W.gif",
+    "gifs/zombi/zombi_palido/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/zombi/zombi_palido/blandir/S.gif",
+    "gifs/zombi/zombi_palido/blandir/SE.gif",
+    "gifs/zombi/zombi_palido/blandir/E.gif",
+    "gifs/zombi/zombi_palido/blandir/NE.gif",
+    "gifs/zombi/zombi_palido/blandir/N.gif",
+    "gifs/zombi/zombi_palido/blandir/NW.gif",
+    "gifs/zombi/zombi_palido/blandir/W.gif",
+    "gifs/zombi/zombi_palido/blandir/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/zombi/zombi_palido/caminar_lpc/S.gif",
+    "gifs/zombi/zombi_palido/caminar_lpc/SE.gif",
+    "gifs/zombi/zombi_palido/caminar_lpc/E.gif",
+    "gifs/zombi/zombi_palido/caminar_lpc/NE.gif",
+    "gifs/zombi/zombi_palido/caminar_lpc/N.gif",
+    "gifs/zombi/zombi_palido/caminar_lpc/NW.gif",
+    "gifs/zombi/zombi_palido/caminar_lpc/W.gif",
+    "gifs/zombi/zombi_palido/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/zombi/zombi_palido/combo/S.gif",
+    "gifs/zombi/zombi_palido/combo/SE.gif",
+    "gifs/zombi/zombi_palido/combo/E.gif",
+    "gifs/zombi/zombi_palido/combo/NE.gif",
+    "gifs/zombi/zombi_palido/combo/N.gif",
+    "gifs/zombi/zombi_palido/combo/NW.gif",
+    "gifs/zombi/zombi_palido/combo/W.gif",
+    "gifs/zombi/zombi_palido/combo/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/zombi/zombi_palido/desenvainar/S.gif",
+    "gifs/zombi/zombi_palido/desenvainar/SE.gif",
+    "gifs/zombi/zombi_palido/desenvainar/E.gif",
+    "gifs/zombi/zombi_palido/desenvainar/NE.gif",
+    "gifs/zombi/zombi_palido/desenvainar/N.gif",
+    "gifs/zombi/zombi_palido/desenvainar/NW.gif",
+    "gifs/zombi/zombi_palido/desenvainar/W.gif",
+    "gifs/zombi/zombi_palido/desenvainar/SW.gif"
+   ],
+   "neutra": [
+    "gifs/zombi/zombi_palido/neutra/S.gif",
+    "gifs/zombi/zombi_palido/neutra/SE.gif",
+    "gifs/zombi/zombi_palido/neutra/E.gif",
+    "gifs/zombi/zombi_palido/neutra/NE.gif",
+    "gifs/zombi/zombi_palido/neutra/N.gif",
+    "gifs/zombi/zombi_palido/neutra/NW.gif",
+    "gifs/zombi/zombi_palido/neutra/W.gif",
+    "gifs/zombi/zombi_palido/neutra/SW.gif"
+   ],
+   "zombi_caminar": [
+    "gifs/zombi/zombi_palido/zombi_caminar/S.gif",
+    "gifs/zombi/zombi_palido/zombi_caminar/SE.gif",
+    "gifs/zombi/zombi_palido/zombi_caminar/E.gif",
+    "gifs/zombi/zombi_palido/zombi_caminar/NE.gif",
+    "gifs/zombi/zombi_palido/zombi_caminar/N.gif",
+    "gifs/zombi/zombi_palido/zombi_caminar/NW.gif",
+    "gifs/zombi/zombi_palido/zombi_caminar/W.gif",
+    "gifs/zombi/zombi_palido/zombi_caminar/SW.gif"
+   ],
+   "zombi_correr": [
+    "gifs/zombi/zombi_palido/zombi_correr/S.gif",
+    "gifs/zombi/zombi_palido/zombi_correr/SE.gif",
+    "gifs/zombi/zombi_palido/zombi_correr/E.gif",
+    "gifs/zombi/zombi_palido/zombi_correr/NE.gif",
+    "gifs/zombi/zombi_palido/zombi_correr/N.gif",
+    "gifs/zombi/zombi_palido/zombi_correr/NW.gif",
+    "gifs/zombi/zombi_palido/zombi_correr/W.gif",
+    "gifs/zombi/zombi_palido/zombi_correr/SW.gif"
+   ],
+   "zombi_golpear": [
+    "gifs/zombi/zombi_palido/zombi_golpear/S.gif",
+    "gifs/zombi/zombi_palido/zombi_golpear/SE.gif",
+    "gifs/zombi/zombi_palido/zombi_golpear/E.gif",
+    "gifs/zombi/zombi_palido/zombi_golpear/NE.gif",
+    "gifs/zombi/zombi_palido/zombi_golpear/N.gif",
+    "gifs/zombi/zombi_palido/zombi_golpear/NW.gif",
+    "gifs/zombi/zombi_palido/zombi_golpear/W.gif",
+    "gifs/zombi/zombi_palido/zombi_golpear/SW.gif"
+   ],
+   "zombi_quieto": [
+    "gifs/zombi/zombi_palido/zombi_quieto/S.gif",
+    "gifs/zombi/zombi_palido/zombi_quieto/SE.gif",
+    "gifs/zombi/zombi_palido/zombi_quieto/E.gif",
+    "gifs/zombi/zombi_palido/zombi_quieto/NE.gif",
+    "gifs/zombi/zombi_palido/zombi_quieto/N.gif",
+    "gifs/zombi/zombi_palido/zombi_quieto/NW.gif",
+    "gifs/zombi/zombi_palido/zombi_quieto/W.gif",
+    "gifs/zombi/zombi_palido/zombi_quieto/SW.gif"
+   ],
+   "zombi_saltar": [
+    "gifs/zombi/zombi_palido/zombi_saltar/S.gif",
+    "gifs/zombi/zombi_palido/zombi_saltar/SE.gif",
+    "gifs/zombi/zombi_palido/zombi_saltar/E.gif",
+    "gifs/zombi/zombi_palido/zombi_saltar/NE.gif",
+    "gifs/zombi/zombi_palido/zombi_saltar/N.gif",
+    "gifs/zombi/zombi_palido/zombi_saltar/NW.gif",
+    "gifs/zombi/zombi_palido/zombi_saltar/W.gif",
+    "gifs/zombi/zombi_palido/zombi_saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "zombi_podrido",
+  "criatura": "zombi",
+  "skin": "zombi_podrido",
+  "portada": "gifs/zombi/zombi_podrido.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/zombi/zombi_podrido/agachar/S.gif",
+    "gifs/zombi/zombi_podrido/agachar/SE.gif",
+    "gifs/zombi/zombi_podrido/agachar/E.gif",
+    "gifs/zombi/zombi_podrido/agachar/NE.gif",
+    "gifs/zombi/zombi_podrido/agachar/N.gif",
+    "gifs/zombi/zombi_podrido/agachar/NW.gif",
+    "gifs/zombi/zombi_podrido/agachar/W.gif",
+    "gifs/zombi/zombi_podrido/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/zombi/zombi_podrido/blandir/S.gif",
+    "gifs/zombi/zombi_podrido/blandir/SE.gif",
+    "gifs/zombi/zombi_podrido/blandir/E.gif",
+    "gifs/zombi/zombi_podrido/blandir/NE.gif",
+    "gifs/zombi/zombi_podrido/blandir/N.gif",
+    "gifs/zombi/zombi_podrido/blandir/NW.gif",
+    "gifs/zombi/zombi_podrido/blandir/W.gif",
+    "gifs/zombi/zombi_podrido/blandir/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/zombi/zombi_podrido/caminar_lpc/S.gif",
+    "gifs/zombi/zombi_podrido/caminar_lpc/SE.gif",
+    "gifs/zombi/zombi_podrido/caminar_lpc/E.gif",
+    "gifs/zombi/zombi_podrido/caminar_lpc/NE.gif",
+    "gifs/zombi/zombi_podrido/caminar_lpc/N.gif",
+    "gifs/zombi/zombi_podrido/caminar_lpc/NW.gif",
+    "gifs/zombi/zombi_podrido/caminar_lpc/W.gif",
+    "gifs/zombi/zombi_podrido/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/zombi/zombi_podrido/combo/S.gif",
+    "gifs/zombi/zombi_podrido/combo/SE.gif",
+    "gifs/zombi/zombi_podrido/combo/E.gif",
+    "gifs/zombi/zombi_podrido/combo/NE.gif",
+    "gifs/zombi/zombi_podrido/combo/N.gif",
+    "gifs/zombi/zombi_podrido/combo/NW.gif",
+    "gifs/zombi/zombi_podrido/combo/W.gif",
+    "gifs/zombi/zombi_podrido/combo/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/zombi/zombi_podrido/desenvainar/S.gif",
+    "gifs/zombi/zombi_podrido/desenvainar/SE.gif",
+    "gifs/zombi/zombi_podrido/desenvainar/E.gif",
+    "gifs/zombi/zombi_podrido/desenvainar/NE.gif",
+    "gifs/zombi/zombi_podrido/desenvainar/N.gif",
+    "gifs/zombi/zombi_podrido/desenvainar/NW.gif",
+    "gifs/zombi/zombi_podrido/desenvainar/W.gif",
+    "gifs/zombi/zombi_podrido/desenvainar/SW.gif"
+   ],
+   "neutra": [
+    "gifs/zombi/zombi_podrido/neutra/S.gif",
+    "gifs/zombi/zombi_podrido/neutra/SE.gif",
+    "gifs/zombi/zombi_podrido/neutra/E.gif",
+    "gifs/zombi/zombi_podrido/neutra/NE.gif",
+    "gifs/zombi/zombi_podrido/neutra/N.gif",
+    "gifs/zombi/zombi_podrido/neutra/NW.gif",
+    "gifs/zombi/zombi_podrido/neutra/W.gif",
+    "gifs/zombi/zombi_podrido/neutra/SW.gif"
+   ],
+   "zombi_caminar": [
+    "gifs/zombi/zombi_podrido/zombi_caminar/S.gif",
+    "gifs/zombi/zombi_podrido/zombi_caminar/SE.gif",
+    "gifs/zombi/zombi_podrido/zombi_caminar/E.gif",
+    "gifs/zombi/zombi_podrido/zombi_caminar/NE.gif",
+    "gifs/zombi/zombi_podrido/zombi_caminar/N.gif",
+    "gifs/zombi/zombi_podrido/zombi_caminar/NW.gif",
+    "gifs/zombi/zombi_podrido/zombi_caminar/W.gif",
+    "gifs/zombi/zombi_podrido/zombi_caminar/SW.gif"
+   ],
+   "zombi_correr": [
+    "gifs/zombi/zombi_podrido/zombi_correr/S.gif",
+    "gifs/zombi/zombi_podrido/zombi_correr/SE.gif",
+    "gifs/zombi/zombi_podrido/zombi_correr/E.gif",
+    "gifs/zombi/zombi_podrido/zombi_correr/NE.gif",
+    "gifs/zombi/zombi_podrido/zombi_correr/N.gif",
+    "gifs/zombi/zombi_podrido/zombi_correr/NW.gif",
+    "gifs/zombi/zombi_podrido/zombi_correr/W.gif",
+    "gifs/zombi/zombi_podrido/zombi_correr/SW.gif"
+   ],
+   "zombi_golpear": [
+    "gifs/zombi/zombi_podrido/zombi_golpear/S.gif",
+    "gifs/zombi/zombi_podrido/zombi_golpear/SE.gif",
+    "gifs/zombi/zombi_podrido/zombi_golpear/E.gif",
+    "gifs/zombi/zombi_podrido/zombi_golpear/NE.gif",
+    "gifs/zombi/zombi_podrido/zombi_golpear/N.gif",
+    "gifs/zombi/zombi_podrido/zombi_golpear/NW.gif",
+    "gifs/zombi/zombi_podrido/zombi_golpear/W.gif",
+    "gifs/zombi/zombi_podrido/zombi_golpear/SW.gif"
+   ],
+   "zombi_quieto": [
+    "gifs/zombi/zombi_podrido/zombi_quieto/S.gif",
+    "gifs/zombi/zombi_podrido/zombi_quieto/SE.gif",
+    "gifs/zombi/zombi_podrido/zombi_quieto/E.gif",
+    "gifs/zombi/zombi_podrido/zombi_quieto/NE.gif",
+    "gifs/zombi/zombi_podrido/zombi_quieto/N.gif",
+    "gifs/zombi/zombi_podrido/zombi_quieto/NW.gif",
+    "gifs/zombi/zombi_podrido/zombi_quieto/W.gif",
+    "gifs/zombi/zombi_podrido/zombi_quieto/SW.gif"
+   ],
+   "zombi_saltar": [
+    "gifs/zombi/zombi_podrido/zombi_saltar/S.gif",
+    "gifs/zombi/zombi_podrido/zombi_saltar/SE.gif",
+    "gifs/zombi/zombi_podrido/zombi_saltar/E.gif",
+    "gifs/zombi/zombi_podrido/zombi_saltar/NE.gif",
+    "gifs/zombi/zombi_podrido/zombi_saltar/N.gif",
+    "gifs/zombi/zombi_podrido/zombi_saltar/NW.gif",
+    "gifs/zombi/zombi_podrido/zombi_saltar/W.gif",
+    "gifs/zombi/zombi_podrido/zombi_saltar/SW.gif"
+   ]
+  }
+ },
+ {
+  "id": "zombi_verde",
+  "criatura": "zombi",
+  "skin": "zombi_verde",
+  "portada": "gifs/zombi/zombi_verde.gif",
+  "animaciones": {
+   "agachar": [
+    "gifs/zombi/zombi_verde/agachar/S.gif",
+    "gifs/zombi/zombi_verde/agachar/SE.gif",
+    "gifs/zombi/zombi_verde/agachar/E.gif",
+    "gifs/zombi/zombi_verde/agachar/NE.gif",
+    "gifs/zombi/zombi_verde/agachar/N.gif",
+    "gifs/zombi/zombi_verde/agachar/NW.gif",
+    "gifs/zombi/zombi_verde/agachar/W.gif",
+    "gifs/zombi/zombi_verde/agachar/SW.gif"
+   ],
+   "blandir": [
+    "gifs/zombi/zombi_verde/blandir/S.gif",
+    "gifs/zombi/zombi_verde/blandir/SE.gif",
+    "gifs/zombi/zombi_verde/blandir/E.gif",
+    "gifs/zombi/zombi_verde/blandir/NE.gif",
+    "gifs/zombi/zombi_verde/blandir/N.gif",
+    "gifs/zombi/zombi_verde/blandir/NW.gif",
+    "gifs/zombi/zombi_verde/blandir/W.gif",
+    "gifs/zombi/zombi_verde/blandir/SW.gif"
+   ],
+   "caminar_lpc": [
+    "gifs/zombi/zombi_verde/caminar_lpc/S.gif",
+    "gifs/zombi/zombi_verde/caminar_lpc/SE.gif",
+    "gifs/zombi/zombi_verde/caminar_lpc/E.gif",
+    "gifs/zombi/zombi_verde/caminar_lpc/NE.gif",
+    "gifs/zombi/zombi_verde/caminar_lpc/N.gif",
+    "gifs/zombi/zombi_verde/caminar_lpc/NW.gif",
+    "gifs/zombi/zombi_verde/caminar_lpc/W.gif",
+    "gifs/zombi/zombi_verde/caminar_lpc/SW.gif"
+   ],
+   "combo": [
+    "gifs/zombi/zombi_verde/combo/S.gif",
+    "gifs/zombi/zombi_verde/combo/SE.gif",
+    "gifs/zombi/zombi_verde/combo/E.gif",
+    "gifs/zombi/zombi_verde/combo/NE.gif",
+    "gifs/zombi/zombi_verde/combo/N.gif",
+    "gifs/zombi/zombi_verde/combo/NW.gif",
+    "gifs/zombi/zombi_verde/combo/W.gif",
+    "gifs/zombi/zombi_verde/combo/SW.gif"
+   ],
+   "desenvainar": [
+    "gifs/zombi/zombi_verde/desenvainar/S.gif",
+    "gifs/zombi/zombi_verde/desenvainar/SE.gif",
+    "gifs/zombi/zombi_verde/desenvainar/E.gif",
+    "gifs/zombi/zombi_verde/desenvainar/NE.gif",
+    "gifs/zombi/zombi_verde/desenvainar/N.gif",
+    "gifs/zombi/zombi_verde/desenvainar/NW.gif",
+    "gifs/zombi/zombi_verde/desenvainar/W.gif",
+    "gifs/zombi/zombi_verde/desenvainar/SW.gif"
+   ],
+   "neutra": [
+    "gifs/zombi/zombi_verde/neutra/S.gif",
+    "gifs/zombi/zombi_verde/neutra/SE.gif",
+    "gifs/zombi/zombi_verde/neutra/E.gif",
+    "gifs/zombi/zombi_verde/neutra/NE.gif",
+    "gifs/zombi/zombi_verde/neutra/N.gif",
+    "gifs/zombi/zombi_verde/neutra/NW.gif",
+    "gifs/zombi/zombi_verde/neutra/W.gif",
+    "gifs/zombi/zombi_verde/neutra/SW.gif"
+   ],
+   "zombi_caminar": [
+    "gifs/zombi/zombi_verde/zombi_caminar/S.gif",
+    "gifs/zombi/zombi_verde/zombi_caminar/SE.gif",
+    "gifs/zombi/zombi_verde/zombi_caminar/E.gif",
+    "gifs/zombi/zombi_verde/zombi_caminar/NE.gif",
+    "gifs/zombi/zombi_verde/zombi_caminar/N.gif",
+    "gifs/zombi/zombi_verde/zombi_caminar/NW.gif",
+    "gifs/zombi/zombi_verde/zombi_caminar/W.gif",
+    "gifs/zombi/zombi_verde/zombi_caminar/SW.gif"
+   ],
+   "zombi_correr": [
+    "gifs/zombi/zombi_verde/zombi_correr/S.gif",
+    "gifs/zombi/zombi_verde/zombi_correr/SE.gif",
+    "gifs/zombi/zombi_verde/zombi_correr/E.gif",
+    "gifs/zombi/zombi_verde/zombi_correr/NE.gif",
+    "gifs/zombi/zombi_verde/zombi_correr/N.gif",
+    "gifs/zombi/zombi_verde/zombi_correr/NW.gif",
+    "gifs/zombi/zombi_verde/zombi_correr/W.gif",
+    "gifs/zombi/zombi_verde/zombi_correr/SW.gif"
+   ],
+   "zombi_golpear": [
+    "gifs/zombi/zombi_verde/zombi_golpear/S.gif",
+    "gifs/zombi/zombi_verde/zombi_golpear/SE.gif",
+    "gifs/zombi/zombi_verde/zombi_golpear/E.gif",
+    "gifs/zombi/zombi_verde/zombi_golpear/NE.gif",
+    "gifs/zombi/zombi_verde/zombi_golpear/N.gif",
+    "gifs/zombi/zombi_verde/zombi_golpear/NW.gif",
+    "gifs/zombi/zombi_verde/zombi_golpear/W.gif",
+    "gifs/zombi/zombi_verde/zombi_golpear/SW.gif"
+   ],
+   "zombi_quieto": [
+    "gifs/zombi/zombi_verde/zombi_quieto/S.gif",
+    "gifs/zombi/zombi_verde/zombi_quieto/SE.gif",
+    "gifs/zombi/zombi_verde/zombi_quieto/E.gif",
+    "gifs/zombi/zombi_verde/zombi_quieto/NE.gif",
+    "gifs/zombi/zombi_verde/zombi_quieto/N.gif",
+    "gifs/zombi/zombi_verde/zombi_quieto/NW.gif",
+    "gifs/zombi/zombi_verde/zombi_quieto/W.gif",
+    "gifs/zombi/zombi_verde/zombi_quieto/SW.gif"
+   ],
+   "zombi_saltar": [
+    "gifs/zombi/zombi_verde/zombi_saltar/S.gif",
+    "gifs/zombi/zombi_verde/zombi_saltar/SE.gif",
+    "gifs/zombi/zombi_verde/zombi_saltar/E.gif",
+    "gifs/zombi/zombi_verde/zombi_saltar/NE.gif",
+    "gifs/zombi/zombi_verde/zombi_saltar/N.gif",
+    "gifs/zombi/zombi_verde/zombi_saltar/NW.gif",
+    "gifs/zombi/zombi_verde/zombi_saltar/W.gif",
+    "gifs/zombi/zombi_verde/zombi_saltar/SW.gif"
+   ]
+  }
+ }
+]
