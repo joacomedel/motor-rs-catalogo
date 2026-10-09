@@ -20,7 +20,7 @@
   .info .name { font-weight:600; font-size:17px; }
   .info .sub { font-size:13px; color:var(--muted); margin-top:2px; }
   .estado { margin-top:8px; font-size:14px; color:var(--acc); min-height:20px; }
-  .controles { display:flex; gap:10px; margin-top:12px; width:100%; }
+  .controles { display:flex; flex-wrap:wrap; gap:10px; margin-top:12px; width:100%; }
   .controles button { flex:1; background:var(--bg); border:1px solid var(--line); color:var(--txt); padding:8px 10px; border-radius:8px; cursor:pointer; font-size:14px; }
   .controles button:hover { border-color:var(--acc); color:var(--acc); }
   .error { color:#ff8a8a; }
@@ -39,8 +39,11 @@
 (() => {
   // Orden de giro de la dirección (rotar avanza en este orden)
   const DIRS = ['S', 'SE', 'E', 'NE', 'N', 'NW', 'W', 'SW'];
-  // Animación que se muestra por defecto
-  const ANIM_DEFAULT = 'neutra';
+  // Animación por defecto: la primera de esta lista que tenga el personaje
+  // (los zombis no tienen "quieto", tienen "zombi_quieto")
+  const ANIM_PREFERIDAS = ['quieto', 'zombi_quieto', 'neutra'];
+  // Tiempo entre cambios de dirección en la rotación automática
+  const INTERVALO_ROTACION_MS = 1000;
 
   const galeria = document.getElementById('galeria');
   const resumen = document.getElementById('resumen');
@@ -56,8 +59,10 @@
   function crearTarjeta(p) {
     const animNombres = Object.keys(p.animaciones);
     // Estado de la tarjeta: animación actual y dirección actual (índice)
-    let animIdx = Math.max(0, animNombres.indexOf(ANIM_DEFAULT));
+    const animDefault = ANIM_PREFERIDAS.find(a => animNombres.includes(a)) ?? animNombres[0];
+    let animIdx = animNombres.indexOf(animDefault);
     let dirIdx = 0;
+    let pausada = false;
 
     const img = el('img');
     img.alt = p.id;
@@ -71,10 +76,11 @@
 
     const estado = el('div', 'estado');
 
-    const btnDir = el('button', null, 'Rotar dirección');
+    const btnPausa = el('button', null, 'Pausar');
+    const btnDir = el('button', null, 'Girar');
     const btnAnim = el('button', null, 'Cambiar animación');
     const controles = el('div', 'controles');
-    controles.append(btnDir, btnAnim);
+    controles.append(btnPausa, btnDir, btnAnim);
 
     const card = el('div', 'card');
     card.append(visor, info, estado, controles);
@@ -97,6 +103,18 @@
       actualizar();
     });
 
+    // Rotación automática: avanza de dirección sola, salvo que esté pausada
+    btnPausa.addEventListener('click', () => {
+      pausada = !pausada;
+      btnPausa.textContent = pausada ? 'Reanudar' : 'Pausar';
+    });
+
+    setInterval(() => {
+      if (pausada) return;
+      dirIdx = (dirIdx + 1) % DIRS.length;
+      actualizar();
+    }, INTERVALO_ROTACION_MS);
+
     actualizar();
     return card;
   }
@@ -107,7 +125,7 @@
       return r.json();
     })
     .then(datos => {
-      resumen.textContent = `${datos.length} personajes. Rotá la dirección o cambiá la animación con los botones de cada uno.`;
+      resumen.textContent = `${datos.length} personajes. La dirección rota sola; podés pausarla o cambiar la animación con los botones de cada uno.`;
       datos.forEach(p => galeria.append(crearTarjeta(p)));
     })
     .catch(err => {
